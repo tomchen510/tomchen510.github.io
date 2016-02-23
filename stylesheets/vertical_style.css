@@ -120,14 +120,15 @@ html {
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
     transition: transform 0.2s, opacity 0.2s;
     opacity: 0;
-    -webkit-transform-origin: 100% 50%;
-    -moz-transform-origin: 100% 50%;
-    -ms-transform-origin: 100% 50%;
-    -o-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
 }
 
-.no-touch #cd-vertical-nav .f1 img:hover  {
+
+/*.no-touch #cd-vertical-nav .f1 img:hover  {
     background-image: url("../images/logo/2_2.png");
     width: 40px;
     z-index: 1000;
