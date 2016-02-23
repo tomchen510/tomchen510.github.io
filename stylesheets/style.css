@@ -28,211 +28,219 @@ body {
     margin: auto;
 }
 
+.logo img {
+    position: fixed;
+    width: 27%;
+    top: 8%;
+    left: 5%;
+    z-index: 100;
+}
+
 #pic1 {
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/pic/1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 70;
 }
 
 #pic2 {
-    background-image: url("../images/2.jpg");
+    background-image: url("../images/pic/2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 69;
 }
 
 #pic3 {
-    background-image: url("../images/3.jpg");
+    background-image: url("../images/pic/3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 68;
 }
 
 #pic4 {
-    background-image: url("../images/4.jpg");
+    background-image: url("../images/pic/4.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 67;
 }
 
 #pic5 {
-    background-image: url("../images/5.jpg");
+    background-image: url("../images/pic/5.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 66;
 }
 
 #pic6 {
-    background-image: url("../images/6.jpg");
+    background-image: url("../images/pic/6.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 65;
 }
 
 #pic7 {
-    background-image: url("../images/7.jpg");
+    background-image: url("../images/pic/7.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 64;
 }
 
 #pic8 {
-    background-image: url("../images/8.jpg");
+    background-image: url("../images/pic/8.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 63;
 }
 
 #pic9 {
-    background-image: url("../images/9.png");
+    background-image: url("../images/pic/9.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 62;
 }
 
 #pic10 {
-    background-image: url("../images/10advertisement.png");
+    background-image: url("../images/pic/10advertisement.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 61;
 }
 
 #pic11 {
-    background-image: url("../images/11.png");
+    background-image: url("../images/pic/11.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 60;
 }
 
 #pic12 {
-    background-image: url("../images/12.png");
+    background-image: url("../images/pic/12.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 59;
 }
 
 #pic13 {
-    background-image: url("../images/13.jpg");
+    background-image: url("../images/pic/13.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 58;
 }
 
 #pic14 {
-    background-image: url("../images/14.jpg");
+    background-image: url("../images/pic/14.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 57;
 }
 
 #pic15 {
-    background-image: url("../images/15.jpg");
+    background-image: url("../images/pic/15.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 56;
 }
 
 #pic16 {
-    background-image: url("../images/16.jpg");
+    background-image: url("../images/pic/16.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 55;
 }
 
 #pic17 {
-    background-image: url("../images/17.jpg");
+    background-image: url("../images/pic/17.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 54;
 }
 
 #pic18 {
-    background-image: url("../images/18collection.jpg");
+    background-image: url("../images/pic/18collection.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 53;
 }
 
 #pic19 {
-    background-image: url("../images/19.jpg");
+    background-image: url("../images/pic/19.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 52;
 }
 
 #pic20 {
-    background-image: url("../images/20.jpg");
+    background-image: url("../images/pic/20.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 51;
 }
 
 #pic21 {
-    background-image: url("../images/21.jpg");
+    background-image: url("../images/pic/21.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 50;
 }
 
 #pic22 {
-    background-image: url("../images/22.jpg");
+    background-image: url("../images/pic/22.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 49;
 }
 
 #pic23 {
-    background-image: url("../images/23.jpg");
+    background-image: url("../images/pic/23.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 48;
 }
 
 #pic24 {
-    background-image: url("../images/24.jpg");
+    background-image: url("../images/pic/24.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 47;
 }
 
 #pic25 {
-    background-image: url("../images/25.jpg");
+    background-image: url("../images/pic/25.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 46;
 }
 
 #pic26 {
-    background-image: url("../images/26.jpg");
+    background-image: url("../images/pic/26.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 45;
 }
 
 #pic27 {
-    background-image: url("../images/27film.png");
+    background-image: url("../images/pic/27film.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 44;
 }
 
 #pic28 {
-    background-image: url("../images/28.jpg");
+    background-image: url("../images/pic/28.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 43;
 }
 
 #pic29 {
-    background-image: url("../images/29.jpg");
+    background-image: url("../images/pic/29.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 42;
 }
 
 #pic30 {
-    background-image: url("../images/30.jpg");
+    background-image: url("../images/pic/30.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 41;
