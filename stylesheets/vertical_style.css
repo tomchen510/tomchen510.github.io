@@ -35,8 +35,8 @@ html {
 
 .no-touch #cd-vertical-nav {
     position: fixed;
-    left: 3%;
-    top: 50%;
+    left: 2%;
+    top: 52%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -51,7 +51,8 @@ html {
     list-style-type: none;
     text-transform: uppercase;
     font-family: arial black;
-    line-height: 2px;
+    margin-top: -10px;
+    
 }
 
 .no-touch #cd-vertical-nav a {
@@ -92,39 +93,45 @@ html {
 
 .no-touch #cd-vertical-nav img:hover {
     content: url("../images/logo/1-2.png");
-    width: 30px;
+    width: 33px;
     z-index: 100;
 }
 
 .no-touch #cd-vertical-nav .fb:hover {
     content: url("../images/logo/2-2.png");
-    width: 30px;
+    width: 33px;
     z-index: 150;
 }
 
 .no-touch #cd-vertical-nav .ig:hover {
     content: url("../images/logo/3-2.png");
-    width: 30px;
+    width: 33px;
     z-index: 150;
 }
 
 .no-touch #cd-vertical-nav .vm:hover {
     content: url("../images/logo/4-2.png");
-    width: 30px;
+    width: 33px;
+    z-index: 150;
+}
+
+.no-touch #cd-vertical-nav .em:hover {
+    content: url("../images/logo/5-2.png");
+    width: 33px;
     z-index: 150;
 }
 
 .no-touch #cd-vertical-nav .sp:hover {
-    content: url("../images/logo/5-2.png");
-    width: 30px;
+    content: url("../images/logo/6-2.png");
+    width: 33px;
     z-index: 150;
 }
 
 .no-touch #cd-vertical-nav img {
     position: relative;
     /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
-    height: 30px;
-    width: 30px;
+    height: 33px;
+    width: 33px;
     z-index: 50;
 }
 
