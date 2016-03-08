@@ -6,7 +6,7 @@ body {
 
 body {
     overflow: auto;
-    height: 2700px;
+    height: 2800px;
 }
 
 #skrollr-body {
@@ -31,7 +31,7 @@ body {
 .logo img {
     position: fixed;
     width: 20%;
-    top: 9%;
+    top: 7%;
     left: 7%;
     z-index: 100;
 }

@@ -36,14 +36,14 @@ html {
 .no-touch #cd-vertical-nav {
     position: fixed;
     left: 2%;
-    top: 52%;
+    top: 45%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    z-index: 1;
+    z-index: 100;
 }
 
 .no-touch #cd-vertical-nav li {
@@ -60,6 +60,7 @@ html {
     /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    cursor: pointer;
 }
 
 .no-touch #cd-vertical-nav a:after {
@@ -169,7 +170,7 @@ html {
 
 /* Touch devices */
 
-.touch .cd-nav-trigger {
+/*.touch .cd-nav-trigger {
     display: block;
     z-index: 2;
     position: fixed;
@@ -314,3 +315,4 @@ html {
         bottom: 40px;
     }
 }
+*/

@@ -134,50 +134,19 @@
         z-index: 10;
     }
     
-    .tc {
-        width: 100%;
-    }
-    
-    .tt {
-        top: 70%;
-        left: 0px;
-        width: 65%;
-    }
-    
-    .cc {
-        position: absolute;
-        top: 67%;
-        right: 0px;
-        width: 35%;
-    }
-    
-    .cc2 {
-        position: absolute;
-        top: 64%;
-        right: 0px;
-        width: 35%;
-    }
-    
-    .cc3 {
-        position: absolute;
-        top: 61%;
-        right: 0px;
-        width: 35%;
-    }
-    
     .swiper-wrapper h1 {
-        font-size: 15px;
+        font-size: 8px;
         text-align: left;
-        margin: 4% auto auto 12%;
+        margin: 4% 0% auto 10%;
         font-family: arial black;
         font-weight: bold;
         color: #ff6a00;
     }
     
     .swiper-wrapper p {
-        font-size: 13px;
+        font-size: 8px;
         text-align: left;
-        margin: 2% 30% auto 12%;
+        margin: 2% 9% auto 10%;
         line-height: 1.5em;
         font-family: calibri;
         color: #ff6a00;
@@ -185,7 +154,7 @@
     }
     
     .swiper-wrapper h2 {
-        font-size: 15px;
+        font-size: 13px;
         text-align: left;
         margin: 4% auto auto -87%;
         font-family: arial black;
@@ -205,17 +174,36 @@
     
     .press {
         right: -25%;
-        width: 50% !important;
+        width: 45% !important;
     }
     
     .press-next {
-        top: 45%;
+        top: 36%;
         right: 1% !important;
     }
     
     .press-prev {
-        top: 45%;
+        top: 36%;
         left: 1% !important;
+    }
+    
+    .press h1 {
+        font-size: 8px;
+        text-align: left;
+        margin: 4% auto auto 10%;
+        font-family: arial black;
+        font-weight: bold;
+        color: #ff6a00;
+    }
+    
+    .press p {
+        font-size: 8px;
+        text-align: left;
+        margin: 2% 30% auto 10%;
+        line-height: 1.5em;
+        font-family: calibri;
+        color: #ff6a00;
+        word-wrap: break-word;
     }
     /*---------------------*/
     
@@ -236,7 +224,7 @@
     }
     
     .project h1 {
-        font-size: 15px;
+        font-size: 8px;
         text-align: left;
         margin: 3% auto auto 10%;
         font-family: arial black;
@@ -245,9 +233,9 @@
     }
     
     .project p {
-        font-size: 13px;
+        font-size: 8px;
         text-align: left;
-        margin: 2% auto auto 10%;
+        margin: 2% 9% auto 10%;
         line-height: 1.5em;
         font-family: calibri;
         color: #ff6a00;
