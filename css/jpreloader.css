@@ -1,5 +1,5 @@
 #jpreOverlay {
-	background-color: #111111;
+	background: linear-gradient(to right,#1E252A -10%, #ffffff 40%,#ffffff 60%, #1E252A 110%);
 }
 #jpreSlide{
 	font-size:22px;
