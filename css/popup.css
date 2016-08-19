@@ -1,0 +1,82 @@
+.p1_popup {
+    position: absolute;
+    margin-left: 3800px;
+    margin-top: 115px;
+}
+
+.btn_r {
+    width: 28px;
+    position: absolute;
+    margin-left: 4550px;
+    margin-top: 263px;
+    z-index: 5;
+}
+
+.btn_hi {
+    width: 248px;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 4280px;
+    z-index: 2;
+}
+
+.btn_r2 {
+    width: 28px;
+    position: absolute;
+    margin-left: 4550px;
+    margin-top: 280px;
+    z-index: 5;
+}
+
+.btn_hi2 {
+    width: 248px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 4160px;
+    z-index: 2;
+}
+
+.p3_popup {
+    position: absolute;
+    margin-left: -3500px;
+    margin-top: 115px;
+    z-index: 2;
+}
+
+.btn_l {
+    width: 28px;
+    position: absolute;
+    margin-left: -3540px;
+    margin-top: 280px;
+    z-index: 10;
+}
+
+.btn_bass {
+    width: 248px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: -3490px;
+    z-index: 2;
+}
+
+.p4_popup {
+    position: absolute;
+    margin-left: -3500px;
+    margin-top: 125px;
+    z-index: 2;
+}
+
+.p1_close{
+    width: 20px;
+    position: absolute;
+    margin-left: 4575px;
+    margin-top: 80px;
+    z-index: 2;
+}
+.p3_close{
+     width: 20px;
+    position: absolute;
+    margin-left: -3540px;
+    margin-top: 80px;
+    z-index: 2;
+}
