@@ -44,17 +44,22 @@ a:hover {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
+
 }
 h1 {
     margin: 10px;
+    font-weight: bold;
+
 }
 p {
     padding: 10px;
     font-weight: 100;
     color: #fff;
 }
+
+
 .navbar {
-    background: #181A1C;
+    background: #BA041F;
     margin-bottom:0;
     min-height:70px;
 }
@@ -65,15 +70,14 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #181A1C;
+    background: #BA041F;
     border-radius:0;
     filter: none;
     border: none;
     box-shadow: none;
 }
 .navbar .brand img {
-    width:120px;
-    height:40px;
+    width:200px;
 }
 .navbar .nav > li > a {
     text-transform:uppercase;
@@ -82,7 +86,7 @@ p {
     margin:10px 3px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    border: 1px solid #181A1C;
+    /*border: 1px solid #181A1C;*/
     box-shadow: none;
     font-size:15px;
     text-shadow: none;
@@ -90,7 +94,7 @@ p {
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #FECE1A;
+    /*border: 1px solid #FECE1A;*/
     color: #fff;
     background-color: #181A1C;
     transition: border-color 1s ease;
@@ -176,7 +180,7 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 30px solid #181A1C;
+    border-top: 30px solid #BA041F;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -219,8 +223,8 @@ p {
 }
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
-    background-color:#FECE1A;
-    color:#181A1C;
+    background-color:#1B2833;
+    color:#fff;
 }
 .button-sp:hover, .button-sp:active {
     background-color:#181A1C;
@@ -359,22 +363,23 @@ p {
     font-weight: lighter;
 }
 .primary-section {
-    background:#181A1C;
+    background:#BA041F;
 }
 .primary-section .triangle {
-    border-top: 40px solid #FECE1A;
+    border-top: 40px solid #fff;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FECE1A;
+    color: #fff;
+    line-height: 1.4;
 }
 .primary-section h1 {
     color:#FFF;
 }
 .secondary-section {
-    background:#FECE1A;
+    background:#fff;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;
@@ -386,7 +391,7 @@ p {
 .third-section {
     padding-bottom: 70px;
     background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #FECE1A;
+    border-top:6px solid #fff;
 }
 .third-section .container {
     padding-top:20px;
@@ -394,7 +399,7 @@ p {
 }
 .third-section .title {
     border-bottom: 1px solid #A1AAB7;
-    color: #FECE1A;
+    color: #fff;
 }
 .sub-section {
     margin-top:30px;
@@ -491,13 +496,13 @@ p {
     color:#fff;
 }
 .team .thumbnail .mask {
-    background: #FECE1A;
+    background: #111;
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
 }
 .team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
-    color:#181A17;
+    color:#fff;
 }
 .about-text {
     margin-top:30px;
@@ -527,12 +532,12 @@ p {
     margin:0;
     left: 10px;
     z-index: 1;
-    color: #181A1C;
+    color: #fff;
 }
 .skills li .bar {
     height:40px;
     position:absolute;
-    background-color: #FECE1A;
+    background-color: #1B2833;
 }
 /*
 3.4 Clients
@@ -555,7 +560,7 @@ p {
 .client-nav li a {
     display:inherit;
     padding:5px;
-    background:#FECE1A;
+    background:#fff;
     border-radius:3px;
     width:20px;
     height:20px;
@@ -815,7 +820,7 @@ p {
     right:20px;
 	border:1px solid #fff;
     display:none;
-    background: #FECE1A;
+    background: #1B2833;
 }
 .scrollup > a {
     position:relative;
