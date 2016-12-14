@@ -86,16 +86,14 @@ a:hover {
     letter-spacing: 0.2em;
 }
 
-.price_left {
+.price_left,.price_ps {
     width: 100%;
     float: left;
 }
 
 p {
-    float: left;
-    margin-left: 15%;
-    margin-top: 5%;
-    width: 70%;
+	float: left;
+    width: 600px;
     color: #fff;
     font-size: 8pt;
     line-height: 1.8em;
