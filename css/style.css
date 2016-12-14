@@ -1,19 +1,27 @@
 body{
 	background-color: #111;
 }
+@font-face{
+	font-family: Audi_normal;
+	src:url(../font/AudiTypeV01-ExtendedNormal.otf);
+}
+a:hover{
+	color: #fff;
+	text-decoration:none;
+}
 .navbar-brand img {
     height: 25px;
     margin-left: 20px;
 }
-
-.navbar-collapse {
-    margin-right: 75px;
+.menu_title{
+	float: right;
+	margin-right: 30px;
 }
-
 .tt{
 	color: #fff;
-    margin-right: 20px;
+    margin-left: 20px;
     font-size: 10pt;
+	font-family: Audi_normal;
 }
 .a3{
 	margin-top: -4%;
