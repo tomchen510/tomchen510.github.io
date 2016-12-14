@@ -1,98 +1,102 @@
-body{
-	background-color: #111;
+body {
+    background-color: #111;
 }
 
-@font-face{
-	font-family: Audi_normal;
-	src:url(../font/AudiTypeV01-ExtendedNormal.otf);
+@font-face {
+    font-family: Audi_normal;
+    src: url(../font/AudiTypeV01-ExtendedNormal.otf);
 }
-a:hover{
-	color: #fff;
-	text-decoration:none;
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
 }
+
 .navbar-brand img {
     height: 25px;
     margin-left: 20px;
 }
-.menu_title{
-	float: right;
-	margin-right: 30px;
-}
-.tt{
-	color: #fff;
-    margin-left: 20px;
-    font-size: 10pt;
-	font-family: Audi_normal;
-}
-.a3{
-	margin-top:-4%;
-	width: 33.33%;
-	float: left;
-}
-.a4{
-	margin-top: -4%;
-	width: 66.66%;
-	float: right;
-}
-.a5,.a6,.a7{
-	width: 33.33%;
-	float: left;
-}
-.a8{
-	width: 66.66%;
-	float: left;
-}
-.q3{
-	width: 33.33%;
-	float: right;
-}
-.q5,.q7{
-	width: 33.346%;
-	float: left;
-}
-.ttt{
-	width: 33.3%;
-	float: right;
+
+.menu_title {
+    float: right;
+    margin-right: 30px;
 }
 
-.price_header{
-	margin-top: -4%;
-	width: 100%;
+.tt {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 10pt;
+    font-family: Audi_normal;
 }
-.sidebar-buttom{
-	text-align: center;
+
+.a3 {
+    margin-top: -4%;
+    width: 33.33%;
+    float: left;
 }
-.sidebar{
-	color: #fff;
-	font-size: 10pt;
-	text-align: center;
-	margin:10px;
-	letter-spacing: 0.2em;	
+
+.a4 {
+    margin-top: -4%;
+    width: 66.66%;
+    float: right;
 }
-.price_left{
-	width: 55%;
-	float: left;
+
+.a5,
+.a6,
+.a7 {
+    width: 33.33%;
+    float: left;
 }
-.price_right{
-	color: #fff;
+
+.a8 {
+    width: 66.66%;
+    float: left;
 }
-.price_right h3{
-	font-size: 12pt;
-	line-height: 1.5em;
-	font-family: Audi_normal;
-	color: #fff;
-	float: left;
-	margin-left: 20px;
-	margin-top: 40px;
+
+.q3 {
+    width: 33.33%;
+    float: right;
 }
-.price_right h1{
-	font-size: 16pt;
-	line-height: 1.5em;
-	font-family: Audi_normal;
-	color: #fff;
-	float: left;
-	margin-left: 20px;
+
+.q5,
+.q7 {
+    width: 33.346%;
+    float: left;
 }
-span{
-	font-size: 9pt;
+
+.ttt {
+    width: 33.3%;
+    float: right;
+}
+
+.price_header {
+    margin-top: -4%;
+    width: 100%;
+}
+
+.sidebar-buttom {
+    text-align: center;
+}
+
+.sidebar {
+    color: #fff;
+    font-size: 10pt;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 0.2em;
+}
+
+.price_left {
+    width: 100%;
+    float: left;
+}
+
+p {
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 70%;
+    color: #fff;
+    font-size: 8pt;
+    line-height: 1.8em;
 }
