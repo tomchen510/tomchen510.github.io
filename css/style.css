@@ -149,13 +149,14 @@ p {
     /*position: fixed;*/
 }
 
-.spe_left_li {
+.spe_left_li a{
     font-size: 18px;
-    line-height: 2.5em;
+    /*line-height: 2.5em;*/
     margin-left: 25%;
     z-index: 4;
     letter-spacing: 0.07em;
     color: #111;
+    padding: 0;
 }
 
 .spe_left_li_air {
