@@ -73,10 +73,10 @@ a:hover {
     margin:0;
     padding: 0;
     overflow:inherit;
-    margin-top:-2%;
+    margin-top:0%;
 }
 .item{
-    margin-top:3.5%;
+    margin-top:0%;
 }
 
 .price_header {
