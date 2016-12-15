@@ -69,14 +69,15 @@ a:hover {
     float: right;
 }
 
-.container{
-    margin:0;
+.container {
+    margin: 0;
     padding: 0;
-    overflow:inherit;
-    margin-top:-2.6%;
+    overflow: inherit;
+    margin-top: -2.6%;
 }
-.item{
-    margin-top:4%;
+
+.item {
+    margin-top: 4%;
 }
 
 .price_header {
@@ -87,7 +88,10 @@ a:hover {
 .sidebar-buttom {
     text-align: center;
 }
-
+.ss{
+    margin-left: 20%;
+    margin-top: 3%;
+}
 .sidebar {
     color: #fff;
     font-size: 10pt;
@@ -95,14 +99,24 @@ a:hover {
     margin: 10px;
     letter-spacing: 0.2em;
 }
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: inherit;
+}
+a{
+    background-color: inherit;
+    color: #fff;
+}
 
-.price_left,.price_ps {
+.price_left,
+.price_ps {
     width: 100%;
     float: left;
 }
 
 p {
-	float: left;
+    float: left;
     width: 600px;
     color: #fff;
     font-size: 8pt;

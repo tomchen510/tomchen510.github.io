@@ -64,16 +64,25 @@
             </div>
         </div>
     </div>
-    <div class="sidebar">
-        <table class="sidebar-buttom">
-            <tr class="price_t">建議售價</tr>
-            <tr>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</tr>
-            <tr class="spe_t">規格表</tr>
-        </table>
-    </div>
-    <div><img class="price_left" src="img/price-19.jpg">
-    </div>
-    <div><img class="price_ps" src="img/price_ps.png">
+    <div id="exTab1" class="container">
+        <ul class="nav nav-pills ss">
+            <li class="active">
+                <a class="sidebar" href="#1a" data-toggle="tab">建議售價</a>
+            </li>
+            <li><a class="sidebar" href="#2a" data-toggle="tab">規格表</a>
+            </li>
+        </ul>
+        <div class="tab-content clearfix">
+            <div class="tab-pane active" id="1a">
+                <div><img class="price_left" src="img/price-19.jpg">
+                </div>
+                <div><img class="price_ps" src="img/price_ps.png">
+                </div>
+            </div>
+            <div class="tab-pane" id="2a">
+                <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
+            </div>
+        </div>
     </div>
     </div>
     <!-- jQuery -->
