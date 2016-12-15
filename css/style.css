@@ -171,10 +171,10 @@ p {
     background-color: red;
     height: 620px;
     margin-top: -82%;
+    overflow:auto;
 }
 
 .spe_right1 {
-    margin-top:6%;
     width: 100%;
     z-index: 1;
 }
