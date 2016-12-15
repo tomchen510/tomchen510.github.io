@@ -6,7 +6,10 @@ body {
     font-family: Audi_normal;
     src: url(../font/AudiTypeV01-ExtendedNormal.otf);
 }
+.ggg{
+    position: fixed;
 
+}
 a:hover {
     color: #fff;
     text-decoration: none;
@@ -74,6 +77,7 @@ a:hover {
     padding: 0;
     overflow: inherit;
     margin-top: -2.6%;
+
 }
 
 .item {
@@ -88,10 +92,12 @@ a:hover {
 .sidebar-buttom {
     text-align: center;
 }
-.ss{
+
+.ss {
     margin-left: 26%;
     margin-top: 3%;
 }
+
 .sidebar {
     color: #fff;
     font-size: 13pt;
@@ -99,16 +105,20 @@ a:hover {
     margin: 10px;
     letter-spacing: 0.2em;
 }
+
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     background-color: inherit;
+    border-bottom: 1.5px solid white;
+    border-radius: 0;
 }
-.nav>li>a{
+
+.nav>li>a {
     padding: 0px;
 }
 
-a{
+a {
     background-color: inherit;
     color: #fff;
 }
@@ -125,4 +135,46 @@ p {
     color: #fff;
     font-size: 8pt;
     line-height: 1.8em;
+}
+
+.spe_title {
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+}
+
+.spe_left {
+    background-color: #EFEFEF;
+    width: 18%;
+    height: 600px;
+    margin-top: 4%;
+    z-index: 4;
+    position: fixed;
+}
+
+.spe_left_li {
+    font-size: 18px;
+    line-height: 2.5em;
+    margin-left: 25%;
+    z-index: 4;
+    letter-spacing: 0.07em;
+}
+
+.spe_left_li_air {
+    margin-top: 13px;
+    letter-spacing: 0em;
+    font-size: 16px;
+    z-index: 4;
+    line-height: 1.2em;
+}
+
+.spe_right1 {
+    margin-top:6%;
+    width: 100%;
+    z-index: 1;
+}
+
+.spe_right {
+    width: 100%;
+    z-index: 1;
 }
