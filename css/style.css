@@ -166,11 +166,11 @@ p {
     line-height: 1.2em;
 }
 .spe_right_form{
-    width: 82%;
+    width: 83%;
     float: right;
     background-color: red;
     height: 620px;
-    margin-top: -82%;
+    margin-top: -79%;
     overflow:auto;
 }
 
