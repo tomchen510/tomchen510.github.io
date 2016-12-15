@@ -89,12 +89,12 @@ a:hover {
     text-align: center;
 }
 .ss{
-    margin-left: 25%;
+    margin-left: 26%;
     margin-top: 3%;
 }
 .sidebar {
     color: #fff;
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: center;
     margin: 10px;
     letter-spacing: 0.2em;
@@ -104,6 +104,10 @@ a:hover {
 .nav-pills>li.active>a:hover {
     background-color: inherit;
 }
+.nav>li>a{
+    padding: 0px;
+}
+
 a{
     background-color: inherit;
     color: #fff;
