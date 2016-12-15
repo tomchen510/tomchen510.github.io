@@ -69,6 +69,16 @@ a:hover {
     float: right;
 }
 
+.container{
+    margin:0;
+    padding: 0;
+    overflow:inherit;
+    margin-top:-5%;
+}
+.item{
+    margin-top:3.5%;
+}
+
 .price_header {
     margin-top: -4%;
     width: 100%;
