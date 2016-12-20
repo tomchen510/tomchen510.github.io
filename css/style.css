@@ -12,6 +12,17 @@ a:hover {
     text-decoration: none;
 }
 
+.audi_title {
+    position: absolute;
+    color: white;
+    font-family: Audi_normal;
+    font-size: 15pt;
+    margin-top: 2.5%;
+    letter-spacing: 0.1em;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 .navbar-brand img {
     height: 25px;
     margin-left: 20px;
@@ -74,7 +85,6 @@ a:hover {
     padding: 0;
     overflow: inherit;
     margin-top: -2.6%;
-
 }
 
 .item {
@@ -149,7 +159,7 @@ p {
     /*position: fixed;*/
 }
 
-.spe_left_li a{
+.spe_left_li a {
     font-size: 18px;
     /*line-height: 2.5em;*/
     margin-left: 25%;
@@ -159,11 +169,10 @@ p {
     padding: 0;
 }
 
-.spe_left_li a:hover{
+.spe_left_li a:hover {
     background-color: inherit;
     border-bottom: 2px solid black;
 }
-
 
 .spe_left_li_air {
     margin-top: 13px;
@@ -172,13 +181,14 @@ p {
     z-index: 4;
     line-height: 1.2em;
 }
-.spe_right_form{
+
+.spe_right_form {
     width: 82.06%;
     float: right;
     background-color: #fff;
     height: 620px;
     margin-top: -79.6%;
-    overflow:auto;
+    overflow: auto;
 }
 
 .spe_right1 {
