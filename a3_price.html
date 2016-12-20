@@ -14,12 +14,13 @@
     <title>title</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
     <div class="navbar navbar-inverse">
         <div class="container-fluid">
-            <div class="audi_title">A3 Sportback</div>
+        <div class="audi_title">A3 Sportback</div>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar-content">
                     <span class="sr-only">Toggle navigation</span>
@@ -77,13 +78,14 @@
             </li>
         </ul>
         <div class="tab-content clearfix">
-            <div class="tab-pane active" id="1a">
+            <div class="tab-pane active fade in" id="1a">
                 <div><img class="price_left" src="img/price-19.jpg">
                 </div>
                 <div><img class="price_ps" src="img/price_ps.png">
                 </div>
             </div>
-            <div class="tab-pane" id="2a">
+            <div class="tab-pane fade" id="2a" style="position:relative;">
+
                 <img class="spe_title" src="img/spe_title.png">
                 <div class="spe_left">
                     <ul class="nav spe_left_li">
@@ -97,37 +99,43 @@
                         <li><a href="#07">安全配備</li>
                         <li><a href="#08">座椅配置</li>
                         <li class="spe_left_li_air"><a href="#09">空調/音響/
-                            <br>通訊系統</li>
+                            <br>通訊系統</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="spe_right_form">
-                <a name="01">
+                   <a name="01">
                     <img class="spe_right1 spe_right" src="img/a3_spe_01.jpg">
-                <a name="02">
-                    <img class="spe_right" src="img/a3_spe_02.jpg">
-                <a name="03">
-                    <img class="spe_right" src="img/a3_spe_03.jpg">
-                <a name="04">
-                    <img class="spe_right" src="img/a3_spe_04.jpg">
-                <a name="05">
-                    <img class="spe_right" src="img/a3_spe_05.jpg">
-                <a name="06">
-                    <img class="spe_right" src="img/a3_spe_06.jpg">
-                <a name="07">
-                    <img class="spe_right" src="img/a3_spe_07.jpg">
-                <a name="08">
-                    <img class="spe_right" src="img/a3_spe_08.jpg">
-                <a name="09">
-                    <img class="spe_right" src="img/a3_spe_09.jpg">
+                    </a>
+                    <a name="02">
+                        <img name="02" class="spe_right" src="img/a3_spe_02.jpg">
+                    </a>
+                    <a name="03">
+                    <img name="03" class="spe_right" src="img/a3_spe_03.jpg">
+                    </a>
+                        <a name="04">
+                            <img class="spe_right" src="img/a3_spe_04.jpg"></a>
+                        <a name="05">
+                            <img class="spe_right" src="img/a3_spe_05.jpg"></a>
+                        <a name="06">
+                            <img class="spe_right" src="img/a3_spe_06.jpg"></a>
+                        <a name="07">
+                            <img class="spe_right" src="img/a3_spe_07.jpg"></a>
+                        <a name="08">
+                            <img class="spe_right" src="img/a3_spe_08.jpg"></a>
+                        <a name="09">
+                            <img class="spe_right" src="img/a3_spe_09.jpg"></a>
                 </div>
             </div>
         </div>
     </div>
-    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
