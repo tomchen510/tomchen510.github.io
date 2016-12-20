@@ -23,7 +23,6 @@ a:hover {
     transform: translate(-50%, 0);
 }
 
-
 .navbar-brand img {
     height: 25px;
     margin-left: 20px;
@@ -81,12 +80,22 @@ a:hover {
     float: right;
 }
 
+.a4_s {
+    width: 100%;
+    float: right;
+    margin-top: -2.6%;
+}
+
+.a4_a {
+    width: 100%;
+    float: right;
+}
+
 .container {
     margin: 0;
     padding: 0;
     overflow: inherit;
     margin-top: -2.6%;
-
 }
 
 .item {
@@ -160,12 +169,12 @@ p {
     width: 130px;
     height: 650px;
     float: left;
-/*    margin-top: -4%;*/
+    /*    margin-top: -4%;*/
     z-index: 4;
     /*position: fixed;*/
 }
 
-.spe_left_li a{
+.spe_left_li a {
     font-size: 18px;
     /*line-height: 2.5em;*/
     margin-left: 25%;
@@ -175,11 +184,10 @@ p {
     padding: 0;
 }
 
-.spe_left_li a:hover{
+.spe_left_li a:hover {
     background-color: inherit;
     border-bottom: 2px solid black;
 }
-
 
 .spe_left_li_air {
     margin-top: 13px;
@@ -188,21 +196,24 @@ p {
     z-index: 4;
     line-height: 1.2em;
 }
-.spe_right_form{
+
+.spe_right_form {
     padding-top: 50px;
     width: calc(100% - 130px);
     float: left;
     background-color: #fff;
     height: 650px;
-/*    margin-top: -4%;*/
-/*    margin-top: -79.6%;*/
-    overflow-y:auto;
-    overflow-x:hidden;
+    /*    margin-top: -4%;*/
+    /*    margin-top: -79.6%;*/
+    overflow-y: auto;
+    overflow-x: hidden;
     z-index: 3;
 }
-.spe_right_form img{
+
+.spe_right_form img {
     padding-top: 60px;
 }
+
 .spe_right1 {
     width: 100%;
     z-index: 1;
