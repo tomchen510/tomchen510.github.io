@@ -1,7 +1,12 @@
 body {
     background-color: #111;
 }
-
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
 @font-face {
     font-family: Audi_normal;
     src: url(../font/AudiTypeV01-ExtendedNormal.otf);
@@ -120,23 +125,29 @@ a:hover {
 }
 
 .sidebar {
-    color: #fff;
+    color: #ccc;
+    transition: 1s;
     font-size: 13pt;
     text-align: center;
     margin: 10px;
     letter-spacing: 0.2em;
+    
 }
 
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
+    transition: 1s;
+     color: #fff;
     background-color: inherit;
     border-bottom: 1.5px solid white;
     border-radius: 0;
 }
 
+
 .nav>li>a {
-    padding: 0px;
+
+    padding: 1em 0px .3em;
 }
 
 a {
@@ -169,22 +180,22 @@ p {
 .spe_left {
     padding-top: 50px;
     background-color: #EFEFEF;
-    width: 130px;
-    height: 650px;
+    width: 140px;
+    height: 680px;
     float: left;
     /*    margin-top: -4%;*/
     z-index: 4;
     /*position: fixed;*/
 }
 
-.spe_left_li a {
+.spe_left_li a{
     font-size: 18px;
     /*line-height: 2.5em;*/
     margin-left: 25%;
     z-index: 4;
     letter-spacing: 0.07em;
     color: #111;
-    padding: 0;
+    
 }
 
 .spe_left_li a:hover {
@@ -202,21 +213,28 @@ p {
 
 .spe_right_form {
     padding-top: 50px;
-    width: calc(100% - 130px);
+    width: calc(100% - 140px);
     float: left;
     background-color: #fff;
-    height: 650px;
+    height: 680px;
     /*    margin-top: -4%;*/
     /*    margin-top: -79.6%;*/
     overflow-y: auto;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
     z-index: 3;
 }
 
 .spe_right_form img {
     padding-top: 60px;
+    vertical-align: top;
 }
-
+.spe_right_form a[id="03"] img{
+    padding-bottom: 50px;
+}
+.spe_right_form a[id="04"] img{
+    padding-bottom: 160px;
+}
 .spe_right1 {
     width: 100%;
     z-index: 1;

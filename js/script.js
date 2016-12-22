@@ -1,4 +1,5 @@
 $(function() {
+    
   $(".carousel").swipe({
 
       swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
@@ -30,4 +31,42 @@ $(function() {
 //    }
 //  });
     
+    $(".spe_left_li a[href*='#']").click(function(evn){
+        evn.preventDefault();
+//        console.log("scrollTo");
+        $('.spe_right_form').scrollTo(this.hash, this.hash); 
+    });
+    
+    
 });
+function fadeTransition(){
+        var options = {
+          "duration"       :  500, // in milliseconds (ms), default 400
+          "iosdelay"       :   50, // ms to wait for the iOS webview to update before animation kicks in, default 60
+          "androiddelay"   :  100,
+        };
+        window.plugins.nativepagetransitions.fade(
+          options
+//            ,
+//          function (msg) {console.log("success: " + msg)}, // called when the animation has finished
+//          function (msg) {alert("error: " + msg)} // called in case you pass in weird values
+        );
+    }
+
+function slideTransition(){
+        var options = {
+          "duration"       :  600, // in milliseconds (ms), default 400
+          "iosdelay"       :   50, // ms to wait for the iOS webview to update before animation kicks in, default 60
+          "androiddelay"   :  100,
+          "direction": "left",
+          "fixedPixelsTop"   :  54,
+        };
+        window.plugins.nativepagetransitions.slide(
+          options
+//            ,
+//          function (msg) {console.log("success: " + msg)}, // called when the animation has finished
+//          function (msg) {alert("error: " + msg)} // called in case you pass in weird values
+        );
+    }
+
+

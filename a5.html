@@ -9,7 +9,7 @@
     <meta:author></meta:author>
     <meta name="keywords" content="Keyword 1,Keyword 2">
     <meta name="description" content="description">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="cordova.js"></script><link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="favicon.png">
     <title>title</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -27,24 +27,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="img/logo-07.png"></a>
+                <a class="navbar-brand" href="index.html" onclick="fadeTransition()"><img src="img/logo-07.png"></a>
             </div>
             <div class="collapse navbar-collapse" id="mynavbar-content">
                 <div class="menu_title">
                     <table class="nav navbar-nav">
                         <tr>
-                            <a href="a3.html" class="tt">
+                            <a href="a3.html" class="tt" onclick="fadeTransition()">
                                 <br/>A3</a>
                         </tr>
-                        <tr><a href="a4.html" class="tt">A4</a></tr>
-                        <tr><a href="a5.html" class="tt">A5</a></tr>
-                        <tr><a href="a6.html" class="tt">A6</a></tr>
-                        <tr><a href="a7.html" class="tt">A7</a></tr>
-                        <tr><a href="a8.html" class="tt">A8</a></tr>
-                        <tr><a href="q3.html" class="tt">Q3</a></tr>
-                        <tr><a href="q5.html" class="tt">Q5</a></tr>
-                        <tr><a href="q7.html" class="tt">Q7</a></tr>
-                        <tr><a href="tt.html" class="tt">TT</a></tr>
+                        <tr><a href="a4.html" class="tt" onclick="fadeTransition()">A4</a></tr>
+                        <tr><a href="a5.html" class="tt" onclick="fadeTransition()">A5</a></tr>
+                        <tr><a href="a6.html" class="tt" onclick="fadeTransition()">A6</a></tr>
+                        <tr><a href="a7.html" class="tt" onclick="fadeTransition()">A7</a></tr>
+                        <tr><a href="a8.html" class="tt" onclick="fadeTransition()">A8</a></tr>
+                        <tr><a href="q3.html" class="tt" onclick="fadeTransition()">Q3</a></tr>
+                        <tr><a href="q5.html" class="tt" onclick="fadeTransition()">Q5</a></tr>
+                        <tr><a href="q7.html" class="tt" onclick="fadeTransition()">Q7</a></tr>
+                        <tr><a href="tt.html" class="tt" onclick="fadeTransition()">TT</a></tr>
                     </table>
                 </div>
             </div>
@@ -88,45 +88,45 @@
                 <div class="spe_left">
                     <ul class="nav spe_left_li">
                         <hr>
-                        <li><a href="#01">技術規格</li>
-                        <li><a href="#02">傳動系統</li>
-                        <li><a href="#03">系統結構</li>
-                        <li><a href="#04">性能數據</li>
-                        <li><a href="#05">外觀配備</li>
-                        <li><a href="#06">內裝配備</li>
-                        <li><a href="#07">安全配備</li>
-                        <li><a href="#08">座椅配置</li>
+                        <li><a href="#01">技術規格</a></li>
+                        <li><a href="#02">傳動系統</a></li>
+                        <li><a href="#03">系統結構</a></li>
+                        <li><a href="#04">性能數據</a></li>
+                        <li><a href="#05">外觀配備</a></li>
+                        <li><a href="#06">內裝配備</a></li>
+                        <li><a href="#07">安全配備</a></li>
+                        <li><a href="#08">座椅配置</a></li>
                         <li class="spe_left_li_air"><a href="#09">空調/音響/
                             <br>通訊系統</a>
                         </li>
                     </ul>
                 </div>
                 <div class="spe_right_form">
-                    <a name="01">
+                    <a id="01">
                         <img class="spe_right1 spe_right" src="img/a5/a5_spe_01.jpg">
                     </a>
-                    <a name="02">
-                        <img name="02" class="spe_right" src="img/a5/a5_spe_02.jpg">
+                    <a id="02">
+                        <img class="spe_right" src="img/a5/a5_spe_02.jpg">
                     </a>
-                    <a name="03">
-                        <img name="03" class="spe_right" src="img/a5/a5_spe_03.jpg">
+                    <a id="03">
+                        <img class="spe_right" src="img/a5/a5_spe_03.jpg">
                     </a>
-                    <a name="04">
+                    <a id="04">
                         <img class="spe_right" src="img/a5/a5_spe_04.jpg">
                     </a>
-                    <a name="05">
+                    <a id="05">
                         <img class="spe_right" src="img/a5/a5_spe_05.jpg">
                     </a>
-                    <a name="06">
+                    <a id="06">
                         <img class="spe_right" src="img/a5/a5_spe_06.jpg">
                     </a>
-                    <a name="07">
+                    <a id="07">
                         <img class="spe_right" src="img/a5/a5_spe_07.jpg">
                     </a>
-                    <a name="08">
+                    <a id="08">
                         <img class="spe_right" src="img/a5/a5_spe_08.jpg">
                     </a>
-                    <a name="09">
+                    <a id="09">
                         <img class="spe_right" src="img/a5/a5_spe_09.jpg">
                     </a>
                 </div>
@@ -136,7 +136,7 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
-    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>

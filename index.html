@@ -9,6 +9,7 @@
     <meta:author></meta:author>
     <meta name="keywords" content="Keyword 1,Keyword 2">
     <meta name="description" content="description">
+    <script src="cordova.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="favicon.png">
     <title>title</title>
@@ -16,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body style="overflow-y: hidden;">
+<body>
     <div class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -32,18 +33,18 @@
                 <div class="menu_title">
                     <table class="nav navbar-nav">
                         <tr>
-                            <a href="a3.html" class="tt">
+                            <a href="a3.html" class="tt" onclick="fadeTransition()">
                                 <br/>A3</a>
                         </tr>
-                        <tr><a href="a4.html" class="tt">A4</a></tr>
-                        <tr><a href="a5.html" class="tt">A5</a></tr>
-                        <tr><a href="a6.html" class="tt">A6</a></tr>
-                        <tr><a href="a7.html" class="tt">A7</a></tr>
-                        <tr><a href="a8.html" class="tt">A8</a></tr>
-                        <tr><a href="q3.html" class="tt">Q3</a></tr>
-                        <tr><a href="q5.html" class="tt">Q5</a></tr>
-                        <tr><a href="q7.html" class="tt">Q7</a></tr>
-                        <tr><a href="tt.html" class="tt">TT</a></tr>
+                        <tr><a href="a4.html" class="tt" onclick="fadeTransition()">A4</a></tr>
+                        <tr><a href="a5.html" class="tt" onclick="fadeTransition()">A5</a></tr>
+                        <tr><a href="a6.html" class="tt" onclick="fadeTransition()">A6</a></tr>
+                        <tr><a href="a7.html" class="tt" onclick="fadeTransition()">A7</a></tr>
+                        <tr><a href="a8.html" class="tt" onclick="fadeTransition()">A8</a></tr>
+                        <tr><a href="q3.html" class="tt" onclick="fadeTransition()">Q3</a></tr>
+                        <tr><a href="q5.html" class="tt" onclick="fadeTransition()">Q5</a></tr>
+                        <tr><a href="q7.html" class="tt" onclick="fadeTransition()">Q7</a></tr>
+                        <tr><a href="tt.html" class="tt" onclick="fadeTransition()">TT</a></tr>
                     </table>
                 </div>
             </div>
@@ -51,40 +52,42 @@
     </div>
     <div class="content">
         <div>
-            <a href="a3.html"><img class="a3" src="img/a3.jpg"></a>
+            <a href="a3.html" onclick="fadeTransition()"><img class="a3" src="img/a3.jpg"></a>
         </div>
         <div>
-            <a href="a4.html"><img class="a4" src="img/a4.jpg"></a>
+            <a href="a4.html" onclick="fadeTransition()"><img class="a4" src="img/a4.jpg"></a>
         </div>
         <div>
-            <a href="a5.html"><img class="a5" src="img/a5.jpg"></a>
+            <a href="a5.html" onclick="fadeTransition()"><img class="a5" src="img/a5.jpg"></a>
         </div>
         <div>
-            <a href="a6.html"><img class="a6" src="img/a6.jpg"></a>
+            <a href="a6.html" onclick="fadeTransition()"><img class="a6" src="img/a6.jpg"></a>
         </div>
         <div>
-            <a href="a7.html"><img class="a7" src="img/a7.jpg"></a>
+            <a href="a7.html" onclick="fadeTransition()"><img class="a7" src="img/a7.jpg"></a>
         </div>
         <div>
-            <a href="a8.html"><img class="a8" src="img/a8.jpg"></a>
+            <a href="a8.html" onclick="fadeTransition()"><img class="a8" src="img/a8.jpg"></a>
         </div>
         <div>
-            <a href="q3.html"><img class="q3" src="img/q3.jpg"></a>
+            <a href="q3.html" onclick="fadeTransition()"><img class="q3" src="img/q3.jpg"></a>
         </div>
         <div>
-            <a href="q5.html"><img class="q5" src="img/q5.jpg"></a>
+            <a href="q5.html" onclick="fadeTransition()"><img class="q5" src="img/q5.jpg"></a>
         </div>
         <div>
-            <a href="q7.html"><img class="q7" src="img/q7.jpg"></a>
+            <a href="q7.html" onclick="fadeTransition()"><img class="q7" src="img/q7.jpg"></a>
         </div>
         <div>
-            <a href="tt.html"><img class="ttt" src="img/tt.jpg"></a>
+            <a href="tt.html" onclick="fadeTransition()"><img class="ttt" src="img/tt.jpg"></a>
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
