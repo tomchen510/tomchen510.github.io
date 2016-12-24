@@ -31,9 +31,40 @@ $(function() {
 //    }
 //  });
     
+//    var arr_a = $('.spe_left_li a')
+    
+
+    
+    var IsAutoScrolling = false;
+     $('.spe_right_form').scroll(function (event) {
+//         event.preventDefault();
+//        if(!IsAutoScrolling){
+////         
+//            $('.spe_left_li a.touch').removeClass("touch");
+//        }
+         
+         var scrollPos = $(this).scrollTop();
+         $('.spe_left_li a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href")+" img");
+//            console.log(scrollPos,refElement.position().top,(refElement.position().top + refElement.outerHeight(true)) );
+            if (refElement.position().top <10 && (refElement.position().top + refElement.outerHeight()) >= 10) {
+                $('.spe_left_li a').removeClass("touch");
+                currLink.addClass("touch");
+            }
+            else{
+                currLink.removeClass("touch");
+            }
+        });
+//         console.log("----------");
+        
+    });
     $(".spe_left_li a[href*='#']").click(function(evn){
         evn.preventDefault();
-//        console.log("scrollTo");
+        
+//        $('.spe_left_li a').removeClass("touch");
+//        $(this).addClass("touch");      
+        
         $('.spe_right_form').scrollTo(this.hash, this.hash); 
     });
     
@@ -59,7 +90,7 @@ function slideTransition(){
           "iosdelay"       :   50, // ms to wait for the iOS webview to update before animation kicks in, default 60
           "androiddelay"   :  100,
           "direction": "left",
-          "fixedPixelsTop"   :  54,
+          "fixedPixelsTop"   :  64,
         };
         window.plugins.nativepagetransitions.slide(
           options

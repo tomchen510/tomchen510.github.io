@@ -22,7 +22,8 @@ a:hover {
     color: white;
     font-family: Audi_normal;
     font-size: 15pt;
-    margin-top: 2.2%;
+/*    margin-top: 2.6%;*/
+    line-height: 65px;
     letter-spacing: 0.1em;
     left: 50%;
     transform: translate(-50%, 0);
@@ -45,46 +46,38 @@ a:hover {
     font-family: Audi_normal;
 }
 
-.a3 {
+.a1,.a3,.a4 {
     margin-top: -3.8%;
     width: 33.33%;
     float: left;
 }
 
-.a4 {
-    margin-top: -4%;
+.a5 {
     width: 66.66%;
-    float: right;
+    float: left;
 }
 
-.a5,
-.a6,
-.a7 {
+.a6 {
     width: 33.33%;
     float: left;
 
 }
 
-.a8 {
-    width: 66.66%;
-    float: left;
-    margin-top: -2px;
-}
-
-.q3 {
+.a7,.a8,.q3 {
     width: 33.33%;
-    float: right;
-    margin-top: -2px;
+    float: left;
+    /*margin-top: -2px;*/
 }
 
-.q5,
 .q7 {
-    width: 33.346%;
-    float: left;
+    width: 33.33%;
+    float: right;
+    /*margin-top: -2px;*/
 }
+
 
 .ttt {
-    width: 33.3%;
+    width: 66.66%;
     float: right;
 }
 
@@ -121,7 +114,7 @@ a:hover {
 
 .ss {
     margin-left: 26%;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .sidebar {
@@ -181,7 +174,7 @@ p {
     padding-top: 50px;
     background-color: #EFEFEF;
     width: 140px;
-    height: 680px;
+    height: 655px;
     float: left;
     /*    margin-top: -4%;*/
     z-index: 4;
@@ -198,7 +191,7 @@ p {
     
 }
 
-.spe_left_li a:hover {
+.spe_left_li a.touch {
     background-color: inherit;
     border-bottom: 2px solid black;
 }
@@ -216,7 +209,7 @@ p {
     width: calc(100% - 140px);
     float: left;
     background-color: #fff;
-    height: 680px;
+    height: 655px;
     /*    margin-top: -4%;*/
     /*    margin-top: -79.6%;*/
     overflow-y: auto;
@@ -235,6 +228,9 @@ p {
 .spe_right_form a[id="04"] img{
     padding-bottom: 160px;
 }
+.spe_right_form a:last-of-type img{
+    padding-bottom: 60px;
+}
 .spe_right1 {
     width: 100%;
     z-index: 1;
@@ -244,3 +240,14 @@ p {
     width: 100%;
     z-index: 1;
 }
+.navbar.navbar-inverse{
+    min-height: 65px;
+}
+.navbar-toggle{
+    margin-top: 12px;
+    margin-right: 17px;
+}
+.navbar-brand{
+    margin-top: 5px;
+}
+
