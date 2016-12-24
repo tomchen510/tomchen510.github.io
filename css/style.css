@@ -65,7 +65,7 @@ a:hover {
 
 .a7,.a8,.q3 {
     width: 33.33%;
-    float: left;
+    float: right;
     /*margin-top: -2px;*/
 }
 
@@ -77,7 +77,7 @@ a:hover {
 
 
 .ttt {
-    width: 66.4%;
+    width: 66.66%;
     float: right;
 }
 
