@@ -47,7 +47,7 @@ a:hover {
 }
 
 .a1,.a3,.a4 {
-    margin-top: -3.8%;
+    margin-top: -3.5%;
     width: 33.33%;
     float: left;
 }
@@ -71,7 +71,7 @@ a:hover {
 
 .q7 {
     width: 33.33%;
-    float: right;
+    float: left;
     /*margin-top: -2px;*/
 }
 
