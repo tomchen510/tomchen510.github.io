@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #eeeeee;
 }
 html, body {
     margin: 0;
@@ -23,12 +23,6 @@ html, body {
     margin-top: -5px;
 }
 
-
-.kv {
-    margin-top: -2.8%;
-    width: 100%;
-    float: left;
-}
 
 .menu_title {
     float: right;
@@ -58,6 +52,50 @@ html, body {
 }
 
 
+.kv {
+    width: 100%;
+    float: left;
+}
+
+.content{
+    position: absolute;
+    margin-top: -2.8%;
+    width: 100%;
+    height: 1000px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background-color: #eeeeee;
+}
+
+.title_co{
+    position: absolute;
+    margin-top: 745px;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.co_01{
+    width: 25%;
+    margin-top: 100px;
+}
+.co_02{
+    width: 25%;
+    margin-top: 100px;
+    margin-left: -4px;
+}
+.co_03{
+    width: 25%;
+    margin-top: 100px;
+    margin-left: -4px;
+}
+.co_04{
+    width: 25%;
+    margin-top: 100px;
+    margin-left: -4px;
+}
+
 
 
 
@@ -74,58 +112,6 @@ html, body {
     transform: translate(-50%, 0);
 }
 
-
-
-
-
-
-.a4 {
-    margin-top: -4%;
-    width: 66.66%;
-    float: right;
-}
-
-.a5,
-.a6,
-.a7 {
-    width: 33.33%;
-    float: left;
-
-}
-
-.a8 {
-    width: 66.66%;
-    float: left;
-    margin-top: -2px;
-}
-
-.q3 {
-    width: 33.33%;
-    float: right;
-    margin-top: -2px;
-}
-
-.q5,
-.q7 {
-    width: 33.346%;
-    float: left;
-}
-
-.ttt {
-    width: 33.3%;
-    float: right;
-}
-
-.a4_s {
-    width: 100%;
-    float: right;
-    margin-top: -2.6%;
-}
-
-.a4_a {
-    width: 100%;
-    float: right;
-}
 
 .container {
     margin: 0;
