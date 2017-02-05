@@ -1,5 +1,5 @@
 body {
-    background-color: #111;
+    background-color: #fff;
 }
 html, body {
     margin: 0;
@@ -7,10 +7,35 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
-@font-face {
-    font-family: Audi_normal;
-    src: url(../font/AudiTypeV01-ExtendedNormal.otf);
+
+.navbar-inverse{
+    background-color: #fff;
+    border-color: #fff;
 }
+
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #446E55;
+}
+
+.navbar-brand img {
+    height: 35px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+
+.kv {
+    margin-top: -2.8%;
+    width: 100%;
+    float: left;
+}
+
+
+
+
+
+
+
 
 a:hover {
     color: #fff;
@@ -29,10 +54,6 @@ a:hover {
     transform: translate(-50%, 0);
 }
 
-.navbar-brand img {
-    height: 25px;
-    margin-left: 20px;
-}
 
 .menu_title {
     float: right;
@@ -46,45 +67,43 @@ a:hover {
     font-family: Audi_normal;
 }
 
-.a1,.a3,.a4 {
-    margin-top: -3.6%;
-    width: 33.33%;
-    float: left;
+
+
+.a4 {
+    margin-top: -4%;
+    width: 66.66%;
+    float: right;
 }
 
-.a5 {
+.a5,
+.a6,
+.a7 {
+    width: 33.33%;
+    float: left;
+
+}
+
+.a8 {
     width: 66.66%;
     float: left;
     margin-top: -2px;
 }
 
-.a6 {
-    width: 33.33%;
-    float: left;
-    margin-top: -2px;
-
-}
-
-.q5,.a8,.q3 {
+.q3 {
     width: 33.33%;
     float: right;
-    /*margin-top: -2px;*/
+    margin-top: -2px;
 }
 
-
-
-
+.q5,
 .q7 {
-    width: 33.33%;
+    width: 33.346%;
     float: left;
-    
 }
-
 
 .ttt {
-    width: 66.66%;
+    width: 33.3%;
     float: right;
-    margin-top: -1px;
 }
 
 .a4_s {
