@@ -43,6 +43,10 @@ html, body {
     font-weight: bold;
 }
 
+.tt:hover{
+    border-bottom: 2px solid #446E55;
+}
+
 .navbar-collapse{
     padding: 0;
 }
@@ -157,7 +161,7 @@ html, body {
     
 }
 
-.nav-pills>li.active>a,
+/*.nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     transition: 1s;
@@ -166,7 +170,7 @@ html, body {
     border-bottom: 1.5px solid white;
     border-radius: 0;
 }
-
+*/
 
 .nav>li>a {
 
