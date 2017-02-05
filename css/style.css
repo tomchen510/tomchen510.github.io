@@ -30,6 +30,23 @@ html, body {
     float: left;
 }
 
+.menu_title {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.tt {
+    color: #446E55;
+    margin-left: 15px;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.navbar-collapse{
+    padding: 0;
+}
+
 
 
 
@@ -55,17 +72,7 @@ a:hover {
 }
 
 
-.menu_title {
-    float: right;
-    margin-right: 30px;
-}
 
-.tt {
-    color: #fff;
-    margin-left: 20px;
-    font-size: 10pt;
-    font-family: Audi_normal;
-}
 
 
 
