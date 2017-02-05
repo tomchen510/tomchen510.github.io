@@ -44,7 +44,8 @@ html, body {
 }
 
 .tt:hover{
-    border-bottom: 2px solid #446E55;
+    color: #446E55;
+    /*border-bottom: 1px solid #446E55;*/
 }
 
 .navbar-collapse{
@@ -177,10 +178,10 @@ html, body {
     padding: 1em 0px .3em;
 }
 
-a {
+/*a {
     background-color: inherit;
     color: #fff;
-}
+}*/
 
 .price_left,
 .price_ps {
@@ -225,10 +226,10 @@ p {
     
 }
 
-.spe_left_li a.touch {
+/*.spe_left_li a.touch {
     background-color: inherit;
     border-bottom: 2px solid black;
-}
+}*/
 
 .spe_left_li_air {
     margin-top: 13px;
