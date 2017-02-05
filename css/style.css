@@ -39,7 +39,7 @@ html, body {
 .tt {
     color: #446E55;
     margin-left: 15px;
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: bold;
 }
 
@@ -48,7 +48,9 @@ html, body {
 }
 
 
-
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: #fff;
+}
 
 
 
