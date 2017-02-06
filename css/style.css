@@ -1,19 +1,21 @@
 body {
     background-color: #eeeeee;
 }
-html, body {
+
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow: hidden;
 }
 
-.navbar-inverse{
+.navbar-inverse {
     background-color: #fff;
     border-color: #fff;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar{
+.navbar-inverse .navbar-toggle .icon-bar {
     background-color: #446E55;
 }
 
@@ -22,7 +24,6 @@ html, body {
     margin-left: 20px;
     margin-top: -5px;
 }
-
 
 .menu_title {
     float: right;
@@ -37,27 +38,26 @@ html, body {
     font-weight: bold;
 }
 
-.tt:hover{
+.tt:hover {
     color: #446E55;
     /*border-bottom: 1px solid #446E55;*/
 }
 
-.navbar-collapse{
+.navbar-collapse {
     padding: 0;
 }
 
-
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
     background-color: #fff;
 }
-
 
 .kv {
     width: 100%;
     float: left;
 }
 
-.content{
+.content {
     position: absolute;
     margin-top: -2.8%;
     width: 100%;
@@ -68,7 +68,7 @@ html, body {
     background-color: #eeeeee
 }
 
-.title_co{
+.title_co {
     position: absolute;
     margin-top: 745px;
     width: 70%;
@@ -76,45 +76,51 @@ html, body {
     transform: translate(-50%, 0);
 }
 
-.co_01{
+.co_01 {
     width: 25%;
     margin-top: 100px;
 }
-.co_02{
-    width: 25%;
-    margin-top: 100px;
-    margin-left: -4px;
-}
-.co_03{
+
+.co_02 {
     width: 25%;
     margin-top: 100px;
     margin-left: -4px;
 }
-.co_04{
+
+.co_03 {
     width: 25%;
     margin-top: 100px;
     margin-left: -4px;
 }
-.co_05{
+
+.co_04 {
+    width: 25%;
+    margin-top: 100px;
+    margin-left: -4px;
+}
+
+.co_05 {
     width: 25%;
     margin-top: -3px;
 }
-.co_06{
-    width: 25%;
-    margin-left: -4px;
-    margin-top: -3px;
-}
-.co_07{
-    width: 25%;
-    margin-left: -4px;
-    margin-top: -3px;
-}
-.co_08{
+
+.co_06 {
     width: 25%;
     margin-left: -4px;
     margin-top: -3px;
 }
 
+.co_07 {
+    width: 25%;
+    margin-left: -4px;
+    margin-top: -3px;
+}
+
+.co_08 {
+    width: 25%;
+    margin-left: -4px;
+    margin-top: -3px;
+}
 
 .container {
     margin: 0;
@@ -123,23 +129,20 @@ html, body {
     margin-top: 75px;
 }
 
-.header_co,.logo_co{
+.header_co,
+.logo_co {
     position: absolute;
     width: 100%;
     z-index: 1;
 }
 
-.logo_co{
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-overflow-scrolling: touch;
-}
+.logo_co {}
 
-.intro_co{
+.intro_co {
     width: 100%;
-    z-index: -1;
 }
 
-.content_co{
+.content_co {
     position: absolute;
     margin-top: 1px;
     width: 100%;
@@ -148,9 +151,10 @@ html, body {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
-.btn_video{
+
+.btn_video {
     position: absolute;
     height: 70px;
     right: 0px;
-    top:150px;
+    top: 150px;
 }
