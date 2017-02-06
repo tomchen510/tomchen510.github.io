@@ -126,18 +126,16 @@ html, body {
 .header_co,.logo_co{
     position: absolute;
     width: 100%;
-    z-index: 0;
-    -webkit-transform: translate3d(0,0,0)
+    z-index: 1;
 }
 
 .intro_co{
     width: 100%;
-    z-index: -1;
 }
 
 .content_co{
     position: absolute;
-    margin-top: 2px;
+    margin-top: 1px;
     width: 100%;
     height: 550px;
     overflow-y: auto;
@@ -146,7 +144,6 @@ html, body {
 }
 .btn_video{
     position: absolute;
-    z-index: 3;
     height: 70px;
     right: 0px;
     top:150px;
