@@ -126,7 +126,7 @@ html, body {
 .header_co,.logo_co{
     position: absolute;
     width: 100%;
-    z-index: 10;
+    z-index: -10;
 }
 
 .intro_co{
