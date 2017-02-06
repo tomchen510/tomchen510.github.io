@@ -130,7 +130,7 @@ html, body {
 }
 
 .logo_co{
-    -webkit-transform:translateZ(10px);
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .intro_co{
