@@ -126,7 +126,7 @@ html, body {
 .header_co,.logo_co{
     position: absolute;
     width: 100%;
-    z-index: 3;
+    z-index: 5;
 }
 
 .intro_co{
@@ -142,6 +142,11 @@ html, body {
     overflow-y: auto;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
-    background-color: #yellow;
 }
-
+.btn_video{
+    position: absolute;
+    z-index: 3;
+    height: 70px;
+    right: 0px;
+    top:150px;
+}
