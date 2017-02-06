@@ -127,6 +127,7 @@ html, body {
     position: absolute;
     width: 100%;
     z-index: 5;
+    -webkit-transform:translateZ(10px);
 }
 
 .intro_co{
