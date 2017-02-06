@@ -8,6 +8,7 @@ body {
     padding: 0;
     height: 100%;
     overflow: hidden;
+    background:transparent
 }
 
 .navbar-inverse {
@@ -133,13 +134,11 @@ body {
 .logo_co {
     position: absolute;
     width: 100%;
-    z-index: 9999;
 }
-
-.logo_co {}
 
 .intro_co {
     width: 100%;
+    z-index: -1;
 }
 
 .content_co {
