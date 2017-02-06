@@ -131,6 +131,7 @@ html, body {
 
 .logo_co{
     -webkit-transform: translate3d(0,0,0);
+    -webkit-overflow-scrolling: touch;
 }
 
 .intro_co{
