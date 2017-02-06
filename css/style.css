@@ -129,6 +129,10 @@ html, body {
     z-index: 1;
 }
 
+.logo_co{
+    -webkit-transform:translateZ(10px);
+}
+
 .intro_co{
     width: 100%;
 }
