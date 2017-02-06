@@ -131,14 +131,14 @@ html, body {
 
 .intro_co{
     width: 100%;
-    z-index: 0;
+    z-index: 1;
 }
 
 .content_co{
     position: absolute;
     margin-top: 2px;
     width: 100%;
-    height: 500px;
+    height: 550px;
     overflow-y: auto;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
