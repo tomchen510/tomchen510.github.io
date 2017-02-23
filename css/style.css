@@ -80,7 +80,7 @@ body {
 
 .title_co {
     position: absolute;
-    margin-top: 745px;
+    margin-top: 843px;
     width: 70%;
     left: 50%;
     transform: translate(-50%, 0);
@@ -164,4 +164,11 @@ body {
     height: 70px;
     right: 0px;
     top: 150px;
+}
+
+.btn_video2 {
+    position: absolute;
+    height: 70px;
+    right: 0px;
+    top: 365px;
 }
