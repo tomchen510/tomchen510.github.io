@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: Audi_normal;
-    src: url(../font/AudiTypeV01-ExtendedNormal.otf);
+    src: url(../font/AudiType-ExtendedBold_03.ttf);
 }
 
 a:hover {
@@ -27,7 +27,7 @@ a:hover {
     font-size: 15pt;
     /*    margin-top: 2.6%;*/
     line-height: 65px;
-    letter-spacing: 0.1em;
+    /*letter-spacing: 0.1em;*/
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -54,9 +54,41 @@ a:hover {
     background-color: red;
 }
 
+.content2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    width: 700px;
+    height: 700px;
+    background-color: red;
+}
+.content3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    width: 700px;
+    height: 700px;
+    background-color: red;
+}
+.content4 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 80px;
+    width: 550px;
+    height: 550px;
+    background-color: red;
+}
+
 .title{
 
     margin-top:600px;
+}
+.title5{
+
+    margin-top:350px;
 }
 
 h1 {
@@ -65,12 +97,26 @@ h1 {
     letter-spacing: 0.3em;
     font-size: 34pt;
 }
+h2 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size: 28pt;
+}
 
 h3 {
     color: #fff;
     text-align: center;
     letter-spacing: 0.2em;
     line-height: 1.5em;
+    
+}
+h4 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    font-size: 27pt;
     
 }
 
@@ -81,160 +127,32 @@ h3 {
     left: 50%;
     transform: translate(-50%, 0);
 }
-
-.item {
-    margin-top: 4%;
-}
-
-.price_header {
-    margin-top: -4%;
-    width: 100%;
-}
-
-.sidebar-buttom {
-    text-align: center;
-}
-
-.ss {
-    margin-left: 26%;
-    margin-top: 1%;
-}
-
-.sidebar {
-    color: #ccc;
-    transition: 1s;
-    font-size: 13pt;
-    text-align: center;
-    margin: 10px;
-    letter-spacing: 0.2em;
-}
-
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:focus,
-.nav-pills>li.active>a:hover {
-    transition: 1s;
-    color: #fff;
-    background-color: inherit;
-    border-bottom: 1.5px solid white;
-    border-radius: 0;
-}
-
-
-.nav>li>a {
-
-    padding: 1em 0px .3em;
-}
-
-a {
-    background-color: inherit;
-    color: #fff;
-}
-
-.price_left,
-.price_ps {
-    width: 100%;
-    float: left;
-}
-
-p {
-    float: left;
-    width: 600px;
-    color: #fff;
-    font-size: 8pt;
-    line-height: 1.8em;
-}
-
-.spe_title {
-    width: 100%;
-    z-index: 5;
+.btn_2{
     position: absolute;
-    top: 0px;
-    /*position: fixed;*/
+    height: 100px;
+    margin-top:760px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.btn_3{
+    position: absolute;
+    height: 100px;
+    margin-top:760px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.btn_4{
+    position: absolute;
+    height: 100px;
+    margin-top:720px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.btn_5{
+    position: absolute;
+    height: 100px;
+    margin-top:300px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
-.spe_left {
-    padding-top: 50px;
-    background-color: #EFEFEF;
-    width: 140px;
-    height: 655px;
-    float: left;
-    /*    margin-top: -4%;*/
-    z-index: 4;
-    /*position: fixed;*/
-}
-
-.spe_left_li a {
-    font-size: 18px;
-    /*line-height: 2.5em;*/
-    margin-left: 25%;
-    z-index: 4;
-    letter-spacing: 0.07em;
-    color: #111;
-}
-
-.spe_left_li a.touch {
-    background-color: inherit;
-    border-bottom: 2px solid black;
-}
-
-.spe_left_li_air {
-    margin-top: 13px;
-    letter-spacing: 0em;
-    font-size: 16px;
-    z-index: 4;
-    line-height: 1.2em;
-}
-
-.spe_right_form {
-    padding-top: 50px;
-    width: calc(100% - 140px);
-    float: left;
-    background-color: #fff;
-    height: 655px;
-    /*    margin-top: -4%;*/
-    /*    margin-top: -79.6%;*/
-    overflow-y: auto;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-    z-index: 3;
-}
-
-.spe_right_form img {
-    padding-top: 60px;
-    vertical-align: top;
-}
-
-.spe_right_form a[id="03"] img {
-    padding-bottom: 50px;
-}
-
-.spe_right_form a[id="04"] img {
-    padding-bottom: 160px;
-}
-
-.spe_right_form a:last-of-type img {
-    padding-bottom: 60px;
-}
-
-.spe_right1 {
-    width: 100%;
-    z-index: 1;
-}
-
-.spe_right {
-    width: 100%;
-    z-index: 1;
-}
-
-.navbar.navbar-inverse {
-    min-height: 65px;
-}
-
-.navbar-toggle {
-    margin-top: 12px;
-    margin-right: 17px;
-}
-
-.navbar-brand {
-    margin-top: 5px;
-}
