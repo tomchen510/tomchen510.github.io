@@ -1,0 +1,334 @@
+<template name="activities">
+  <div class="template-activities">
+    <div class="container">
+      <div class="menu col-md-3">
+        <ul class="row">
+          <div class="col-xs-6 col-md-12"><li class="stage active">舞台時段</li></div>
+          <div class="col-xs-6 col-md-12"><li class="live">直播時段</li></div>
+          <div class="col-xs-6 col-md-12"><li class="score">積分辦法</li></div>
+          <div class="col-xs-6 col-md-12"><li class="prize">獎品介紹</li></div>
+        </ul>
+      </div>
+      <div class="col-md-9">
+        {{> Template.dynamic template=name }}
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<template name="_stage">
+  <div class="title">臺北資訊月</div>
+  <p>全館全日進行｢尋寶活動｣積分集點兌換贈品</p>
+  <img src="/images/activities/schedule_taipei.png" class="img-responsive">
+</template>
+
+
+<template name="_live">
+  <div class="host">
+    <div class="title">臺北資訊月</div>
+    <span class="name">Ebbe 伊比</span> <a href="">直播連結</a>
+    <div class="row">
+      <div class="col-sm-8">
+        <img src="/images/activities/ebbe.png" class="img-responsive">
+      </div>
+      <div class="col-sm-4">
+        <p>
+          2月6日（三）<br>
+          14:000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹
+        </p>
+
+        <p>
+          106年12月9日（六）<br>
+          11:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹<br>
+          14:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹
+        </p>
+
+        <p>
+          106年12月10日（日）<br>
+          11:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹<br>
+          14:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="host">
+    <div class="title">臺中資訊月</div>
+    <span class="name">蜜糖甜心-蔡小佩</span> <a href="">直播連結</a>
+    <div class="row">
+      <div class="col-sm-8">
+        <img src="/images/activities/蔡小佩.png" class="img-responsive">
+      </div>
+      <div class="col-sm-4">
+        <p>
+          106年12月15日（五）<br>
+          14:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹
+        </p>
+
+        <p>
+          106年12月19日（二）<br>
+          11:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹<br>
+          14:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹
+        </p>
+
+        <p>
+          106年12月20日（三）<br>
+          11:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹<br>
+          14:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展區及活動介紹
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<template name="_score">
+  <div class="game">
+    <div class="title">｢尋寶活動｣遊戲說明</div>
+    <p>訊月展覽期間登入「智慧政府館」活動官方網站，即可操作網頁進入「尋寶活動」，開始參加積分集點活動，累計積分可至資訊月「智慧政府館」兌獎處兌換精美禮品。</p>
+    <ol class="instruction">
+      <li>
+        <p>積分累積方法，共計兩關，並可選擇加碼累計更高積分</p>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title">數位資訊牆</div>
+          </div>
+          <div class="col-md-9">
+            <ol>
+              <li>依照數位資訊牆觸控面板指示，蒐集數位資訊牆的資訊徽章</li>
+              <li>每次蒐集時間以30秒為限，每個資訊徽章藏有不一樣的積分，採隨機出章</li>
+              <li>完成本區任務或蒐集時間結束，須前往｢影片彩蛋區｣繼續尋寶</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title">影片彩蛋區</div>
+          </div>
+          <div class="col-md-9">
+            <ol>
+              <li>於資訊月展覽期間至「智慧政府館」內找出各區有影片彩蛋的各部會展區</li>
+              <li>觀看影片並找出影片中的通關密碼</li>
+              <li>輸入密碼獲取積分，每個密碼積分採隨機計分</li>
+            </ol>
+          </div>
+        </div>
+
+        <p>尋寶結束，可於兌獎時間，洽兌獎處工作人員進行積分兌獎，或逕至<span class="highlight">加碼區</span>，提高積分累積</p>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title">｢動感無限拍照｣加碼區</div>
+          </div>
+          <div class="col-md-9">
+            <ol>
+              <li>參加「智慧政府館」拍照打卡活動，透過拍照區，完成動感照片拍攝</li>
+              <li>掃描 QR Code 並透過社交軟體分享動感照片</li>
+              <li>憑分享成功頁面並<b>#2017智慧政府館</b>，可至活動官網登錄獲得加碼點數</li>
+              <li>每日以加碼一次為限</li>
+            </ol>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <p>積分點數重置規則</p>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title">積分點數兌換</div>
+          </div>
+          <div class="col-md-9">
+            <p>
+              尋寶積分計算限單次有效，<br>
+              每次兌換之尋寶積分須一次兌換，不可部分兌換
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title">禮物兌換規則</div>
+          </div>
+          <div class="col-md-9">
+            <ol>
+              <li>獲得點數後可至「智慧政府館」兌獎處服務台，由工作人員輸入兌獎密碼兌換精美禮品</li>
+              <li>禮品兌換後將扣除該次點數積分，無法保留下次使用</li>
+              <li>
+                每日兌換採 2 波段次，每日兌換時間至 17:30 止，依照積分點數表兌換相對贈品
+                <ul>
+                  <li>上午開始時間為 11:00</li>
+                  <li>下午開始時間為 14:00</li>
+                </ul>
+              </li>
+              <li>禮品兌換數量以當日兌獎處現場為主，<span class="highlight">數量有限換完為止</span></li>
+            </ol>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <p>尋寶遊戲積分點數贈品贈送辦法</p>
+        <table class="table table-striped">
+          <tr>
+            <th>遊戲積分點數</th>
+            <th>獎品類別</th>
+            <th>獎品名稱</th>
+            <th>獎品內容</th>
+          </tr>
+          <tr>
+            <td>550點 以上</td>
+            <td>大獎機會</td>
+            <td>獲得雙重抽獎憑證<br>(可參加各區最後一天抽 iPad 機會)</td>
+            <td>iPad(32G)<br>台北/台中各2台，共4台</td>
+          </tr>
+          <tr>
+            <td>450-550點</td>
+            <td>3C類</td>
+            <td>三用口袋相簿</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>350-450點</td>
+            <td>休閒類</td>
+            <td>電影票</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>250-350點</td>
+            <td>環保類</td>
+            <td>不鏽鋼環保吸管組</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>150-250點</td>
+            <td>生活類</td>
+            <td>自拍神器補光燈</td>
+            <td></td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <p>iPad 抽獎辦法：</p>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title">參加活動資格</div>
+          </div>
+          <div class="col-md-9">
+            <ol>
+              <li>參加者可至資訊月「智慧政府館」依活動官方網站尋寶活動積分集點辦法，累積至一定積分點數，兌換贈品或參加 iPad 抽獎活動</li>
+              <li>唯參加 iPad 抽獎者限具有中華民國國籍之民眾</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title">抽獎時間</div>
+          </div>
+          <div class="col-md-9">
+            <p>
+              每場展覽最後一日(臺北場106年12月6日/臺中場106年12月20日/高雄場107年1月2日/臺南場 107 年 1 月 9 日) <br>
+              15：30pm 舞台活動時間
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title">抽獎方式</div>
+          </div>
+          <div class="col-md-9">
+            <p>
+              舞台主持人將於現場活動中，由抽獎箱中抽出一位中獎者，並於現場 call out，<br>
+              通知中獎人已中獎，並連絡本案負責團隊進行領獎程序<br>
+              若無接通 2 次，則再次抽出下一位中獎人作為遞補
+            </p>
+          </div>
+        </div>
+      </li>
+    </ol>
+
+    <div class="notice">
+      注意事項：行動載具應用設計 iOS 10 / Android Chrome 60 以上版本（僅限於手機使用）<br>
+      本活動如有任何疑義，皆以主辦單位現場正式公告為準，另主辦單位保留活動修改變更之權利 。<br>
+      凡參加本活動者皆視為同意以上之規定。
+    </div>
+  </div>
+
+  <div class="game">
+    <div class="title">｢舞台活動｣遊戲說明</div>
+    <p>訊月展覽期間登入「智慧政府館」活動官方網站，即可操作網頁進入「尋寶活動」，開始參加積分集點活動，累計積分可至資訊月「智慧政府館」兌獎處兌換精美禮品。</p>
+    <ol class="instruction">
+      <li>
+        <p>祕寶積分 PK 競賽</p>
+        <div class="row">
+          <ol>
+            <li>隨機於舞台活動期間挑選兩位民眾上台PK競賽</li>
+            <li>兩位PK者依照舞台觸控面板指示，分別蒐集觸控面板的資訊卡</li>
+            <li>每次蒐集時間以30秒為限，每張資訊卡藏有不一樣的積分，採隨機出卡</li>
+            <li>在30秒時間內收集積分較高一方為勝利者，即可獲得精美舞台小禮乙份</li>
+          </ol>
+        </div>
+      </li>
+
+      <li>
+        <p>快閃舞台活動—智慧網路人氣王</p>
+        <div class="row">
+          <ol>
+            <li>於展期間在「智慧政府館」，透過動感無限拍照區，完成動感照片拍攝</li>
+            <li>使用社交軟體與朋友分享活動訊息，憑分享成功頁面並<b>#2017智慧政府館</b></li>
+            <li>憑分享成功頁面”人氣讚數”，即可於活動時間至舞台與其他人氣王live比拼</li>
+            <li>人氣讚數最高的人氣王即可獲得精美舞台小禮乙份</li>
+            <li>每日以一次為限</li>
+          </ol>
+        </div>
+      </li>
+    </ol>
+  </div>
+
+  <div class="game">
+    <div class="title">｢網模直播｣遊戲說明</div>
+    <ol class="instruction">
+      <li>
+        <p>網模直播好禮送：於指定活動日期及時段於｢智慧政府館｣進行各參加單位展示介紹、展區數位活動介紹</p>
+        <div class="row">
+          <ol>
+            <li>於網模直播期間上網至直播網頁下方留言<b>#2017智慧政府館</b></li>
+            <li>每場次直播結束後會隨機挑選出3位幸運兒</li>
+            <li>被抽中的 3 位幸運兒，將會於當日公佈於｢智慧政府館｣活動官網內</li>
+            <li>展期間於｢智慧政府館｣攤位內服務台，憑手機截圖 Facebook 畫面，即可兌換得精美小禮乙份</li>
+          </ol>
+        </div>
+      </li>
+    </ol>
+  </div>
+</template>
+
+
+<template name="_prize">
+  <div class="title">集點贈品</div>
+  <div class="row">
+    <div class="col-xs-6 col-sm-4">
+      <img src="/images/activities/prize_150.png" class="img-responsive">
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <img src="/images/activities/prize_250.png" class="img-responsive">
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <img src="/images/activities/prize_350.png" class="img-responsive">
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <img src="/images/activities/prize_450.png" class="img-responsive">
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <img src="/images/activities/prize_550.png" class="img-responsive">
+    </div>
+  </div>
+</template>

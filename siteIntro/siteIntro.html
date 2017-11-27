@@ -1,0 +1,221 @@
+<template name="siteIntro">
+  <div class="template-siteIntro">
+    <div class="info">
+      <div class="container">
+        <div class="col-md-3"><div class="title">全館平面圖</div></div>
+        <div class="col-md-9">
+          <img src="/images/site_intro/01.png" class="img-responsive">
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <div class="container">
+        <div class="menu col-md-3">
+          <div class="title">展區介紹</div>
+          <ul class="row">
+            <div class="col-xs-4 col-md-12"><li class="cloud_computing active">雲端運算</li></div>
+            <div class="col-xs-4 col-md-12"><li class="ai">人工智慧</li></div>
+            <div class="col-xs-4 col-md-12"><li class="ito">物聯網</li></div>
+            <div class="col-xs-4 col-md-12"><li class="big_data">巨量資料</li></div>
+            <div class="col-xs-4 col-md-12"><li class="vr">虛擬實境</li></div>
+            <div class="col-xs-4 col-md-12"><li class="asia_sv">亞洲矽谷</li></div>
+          </ul>
+        </div>
+        <div class="col-md-9">
+          {{> Template.dynamic template=name }}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<template name="_cloud_computing">
+  <div class="row">
+    <div class="intro cloud_computing">
+      <div class="logo col-xs-4 col-sm-2">
+        <img src="/images/site_intro/五大_A04.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-xs-8 col-sm-10">
+        <div class="header">雲端運算</div>
+        <p>
+          透過網路。<br>
+          共享的軟硬體資源和資訊，<br>
+          按需求提供給電腦各種終端和其他裝置
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_A05.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_A06.png" class="img-responsive">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_A07.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_A08.png" class="img-responsive">
+    </div>
+  </div>
+</template>
+
+
+<template name="_ai">
+  <div class="row">
+    <div class="intro ai">
+      <div class="logo col-xs-4 col-sm-2">
+        <img src="/images/site_intro/五大_B04.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-xs-8 col-sm-10">
+        <div class="header">人工智慧</div>
+        <p>
+          透過知識彙整和推理學習全新的知識、全新的語言<br>
+          甚至全新的推理方式。<br>
+          運用在醫療、無人駕駛、金融業
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_B05.png" class="img-responsive">
+    </div>
+  </div>
+</template>
+
+
+<template name="_ito">
+  <div class="row">
+    <div class="intro ito">
+      <div class="logo col-xs-4 col-sm-2">
+        <img src="/images/site_intro/五大_C04.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-xs-8 col-sm-10">
+        <div class="header">物聯網</div>
+        <p>
+          一個全球化的網路基礎建設，<br>
+          透過資料擷取以及通訊能力以連結實體與虛擬物件互相交換資料並溝通
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_C05.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_C06.png" class="img-responsive">
+    </div>
+  </div>
+</template>
+
+
+<template name="_big_data">
+  <div class="row">
+    <div class="intro big_data">
+      <div class="logo col-xs-4 col-sm-2">
+        <img src="/images/site_intro/五大_D04.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-xs-8 col-sm-10">
+        <div class="header">巨量資料</div>
+        <p>
+          「巨量」、「即時性」及「多樣性」大數據。<br>
+          從中萃取出那些可能埋藏著<br>
+          前所未見的知識跟應用資訊
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_D05.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_D06.png" class="img-responsive">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_D07.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_D08.png" class="img-responsive">
+    </div>
+  </div>
+</template>
+
+
+<template name="_vr">
+  <div class="row">
+    <div class="intro vr">
+      <div class="logo col-xs-4 col-sm-2">
+        <img src="/images/site_intro/五大_E04.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-xs-8 col-sm-10">
+        <div class="header">虛擬實境</div>
+        <p>
+          整合多重感知體驗；<br>
+          虛擬實境將會徹底改變人類<br>
+          未來的娛樂、訓練、互動甚至消費方式
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_E05.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_E06.png" class="img-responsive">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_E07.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/五大_E08.png" class="img-responsive">
+    </div>
+  </div>
+</template>
+
+
+<template name="_asia_sv">
+  <div class="row">
+    <div class="intro asia_sv">
+      <div class="logo col-xs-4 col-sm-3">
+        <img src="/images/site_intro/六家_F04.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-sm-8 col-sm-9">
+        <div class="header">亞洲·矽谷</div>
+        <p>
+          鏈結亞洲<br>
+          連結矽谷<br>
+          創新台灣
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/六家_F05.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/六家_F06.png" class="img-responsive">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="/images/site_intro/六家_F07.png" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <img src="/images/site_intro/六家_F08.png" class="img-responsive">
+    </div>
+  </div>
+</template>

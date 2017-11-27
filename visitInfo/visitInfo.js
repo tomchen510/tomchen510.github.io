@@ -1,0 +1,3 @@
+Template.visitInfo.rendered = function() {
+
+};

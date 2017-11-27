@@ -1,0 +1,3 @@
+Template.treasureHunt.rendered = function() {
+
+};
