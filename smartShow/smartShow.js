@@ -1,3 +1,0 @@
-Template.smartShow.rendered = function() {
-
-};
