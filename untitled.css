@@ -12,7 +12,7 @@ section
 .wave
 {
 	position: relative;
-	background: linear-gradient(75deg,#ffffff,#967560);
+	background: linear-gradient(160deg,#ffffff 0%,#E2C3AE 35%,#967560 100%);
 }
 .wave:before
 {
