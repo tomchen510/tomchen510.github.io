@@ -71,11 +71,11 @@ li:nth-child(5) { background-color: #ffcc00; }
 <h1>Hammer.js examples</h1>
 
 <ol>
-    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none; bottom: 0px;">Swipe up to delete →</li>
-    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe up to delete →</li>
-    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe up to delete →</li>
-    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe up to delete →</li>
-    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe up to delete →</li>
+    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe right to delete →</li>
+    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe right to delete →</li>
+    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe right to delete →</li>
+    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe right to delete →</li>
+    <li style="user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">Swipe right to delete →</li>
 </ol>
 
 <!-- Include hammer.js library -->
@@ -89,7 +89,7 @@ li:nth-child(5) { background-color: #ffcc00; }
         function dragElement(event) {
             var elementToDrag = event.target;
             // deltaX tracks the distance dragged along the x-axis since the initial touch.
-            elementToDrag.style.bottom = event.gesture.deltaX + 'px';
+            elementToDrag.style.left = event.gesture.deltaX + 'px';
         };
 
         function deleteElement(event) {
@@ -101,7 +101,7 @@ li:nth-child(5) { background-color: #ffcc00; }
 
         function resetElement(event) {
             var elementToReset = event.target;
-            elementToReset.style.bottom = 0;
+            elementToReset.style.left = 0;
         };
 
         // Swipe options as recommended by:
@@ -109,8 +109,8 @@ li:nth-child(5) { background-color: #ffcc00; }
         var swipeOptions = { dragLockToAxis: true, dragBlockHorizontal: true };
         function initTouchListeners(touchableElement) {
             var touchControl = new Hammer(touchableElement, swipeOptions);
-            touchControl.on("dragup", dragElement)
-                    .on("swipeup", deleteElement)
+            touchControl.on("dragright", dragElement)
+                    .on("swiperight", deleteElement)
                     .on("release", resetElement);
         };
 
