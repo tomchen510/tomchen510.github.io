@@ -22,10 +22,15 @@ img{
 	width: 15%;
 	z-index: 2;
 	margin-top: 100px;
+	-webkit-animation:cloud1;
 	animation-name: cloud1;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes cloud1 {
+    0%   {left:-300px;}
+    100% {left:1500px;}
 }
 @keyframes cloud1 {
     0%   {left:-300px;}
