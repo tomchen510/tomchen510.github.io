@@ -1,13 +1,82 @@
 body {
 
       margin: 0;
+      overflow-x: hidden;
+      overflow-y: hidden;
     /*  background-image: url(img/kv.png);
       background-size: 100%;
       background-repeat: none;*/
 
     }
+img{
+	position: absolute;
+}
+
 .kv{
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	z-index: 1;
 }
+.cloud1{
+	width: 15%;
+	z-index: 2;
+	margin-top: 100px;
+	animation-name: cloud1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes cloud1 {
+    0%   {left:-300px;}
+    100% {left:1500px;}
+}
+
+
+.cloud2{
+	width: 15%;
+	z-index: 3;
+	margin-top: 220px;
+	animation-name: cloud1;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+}
+@keyframes cloud2 {
+    0%   {left:-500px;}
+    100% {left:1500px;}
+}
+
+
+.cloud3{
+	width: 20%;
+	z-index: 4;
+	margin-top: 80px;
+	animation-name: cloud3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+@keyframes cloud3 {
+    0%   {left:1500px;}
+    100% {left:-500px;}
+}
+
+
+.cloud4{
+	width: 15%;
+	z-index: 5;
+	margin-top: 280px;
+	animation-name: cloud4;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes cloud4 {
+    0%   {left:1500px;}
+    100% {left:-500px;}
+}
+
