@@ -92,6 +92,8 @@ img{
     100% {left:-500px;}
 }
 
+
+
 .road{
 	width: 30%;
 	z-index: 6;
@@ -100,3 +102,22 @@ img{
 	transform: translate(-50%, 0);
 
 }
+
+
+.round1{
+	width: 120%;
+	z-index: 5;
+	bottom: -55px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	animation-name: round1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes round1 {
+    0%   {}
+    100% {}
+}
+
