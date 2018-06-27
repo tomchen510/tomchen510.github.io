@@ -30,11 +30,11 @@ img{
 }
 @-webkit-keyframes cloud1 {
     0%   {left:-300px;}
-    100% {left:1500px;}
+    100% {left:2500px;}
 }
 @keyframes cloud1 {
     0%   {left:-300px;}
-    100% {left:1500px;}
+    100% {left:2500px;}
 }
 
 
@@ -50,7 +50,7 @@ img{
 }
 @keyframes cloud2 {
     0%   {left:-500px;}
-    100% {left:1500px;}
+    100% {left:2500px;}
 }
 
 
@@ -65,7 +65,7 @@ img{
 
 }
 @keyframes cloud3 {
-    0%   {left:1500px;}
+    0%   {left:2500px;}
     100% {left:-500px;}
 }
 
@@ -81,7 +81,15 @@ img{
 
 }
 @keyframes cloud4 {
-    0%   {left:1500px;}
+    0%   {left:2500px;}
     100% {left:-500px;}
 }
 
+.road{
+	/*width: 0%;*/
+	z-index: 6;
+	bottom: -15px;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+}
