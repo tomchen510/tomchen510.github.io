@@ -58,7 +58,7 @@ img{
 }
 @keyframes cloud1 {
      0%   {left:30px;}
-    100% {left:880px;}
+    100% {left:820px;}
 }
 
 
@@ -67,30 +67,32 @@ img{
 	z-index: 3;
 	margin-top: 220px;
 	animation-name: cloud2;
-    animation-duration: 25s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
 
 }
 @keyframes cloud2 {
-    0%   {left:-500px;}
-    100% {left:1500px;}
+    0%   {left:10px;}
+    100% {left:800px;}
 }
 
 
 .cloud3{
 	width: 20%;
 	z-index: 4;
-	margin-top: 80px;
+	margin-top: 30px;
 	animation-name: cloud3;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
 
 }
 @keyframes cloud3 {
-    0%   {left:1500px;}
-    100% {left:-500px;}
+    0%   {left:800px;}
+    100% {left:40px;}
 }
 
 
@@ -102,11 +104,12 @@ img{
     animation-duration: 17s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    animation-direction: alternate-reverse;
 
 }
 @keyframes cloud4 {
-    0%   {left:1500px;}
-    100% {left:-500px;}
+    0%   {left:850px;}
+    100% {left:60px;}
 }
 
 
