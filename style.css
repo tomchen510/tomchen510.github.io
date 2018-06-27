@@ -14,7 +14,7 @@ body {
 @media (max-width: 479px){
     body                    {overflow-x:hidden;}
 }
-    
+
 img{
 	position: absolute;
 }
@@ -93,7 +93,7 @@ img{
 }
 
 .road{
-	width: 10%;
+	width: 30%;
 	z-index: 6;
 	bottom: -15px;
 	left: 50%;
