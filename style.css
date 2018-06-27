@@ -117,7 +117,7 @@ img{
 .road{
 	width: 65%;
 	z-index: 6;
-	bottom: 0px;
+	bottom: 80px;
 	left: 50%;
 	transform: translate(-50%, 0);
 
@@ -126,7 +126,7 @@ img{
 
 .round1{
 	z-index: 5;
-	bottom:0px;
+	bottom:80px;
 	left: 50%;
 	transform: translate(-50%, 0);
 	animation-name: round1;
@@ -142,7 +142,7 @@ img{
 
 .round2{
 	z-index: 6;
-	bottom: 0px;
+	bottom: 80px;
 	left: 50%;
 	transform: translate(-50%, 0);
 	animation-name: round2;
