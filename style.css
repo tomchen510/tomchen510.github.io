@@ -21,6 +21,20 @@ body {
     }
 }
 
+@media screen and (max-width: 375px) {
+    body {
+        overflow: hidden!important;
+    }
+}
+
+/* ----------- iPad mini ----------- */
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow: hidden!important;
+    }
+}
+
 img{
 	position: absolute;
 }
@@ -111,7 +125,7 @@ img{
 
 
 .round1{
-	width: 80%;
+	width: 120%;
 	z-index: 5;
 	bottom: -55px;
 	left: 50%;
