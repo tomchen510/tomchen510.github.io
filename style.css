@@ -125,18 +125,34 @@ img{
 
 
 .round1{
-	width: 120%;
 	z-index: 5;
 	bottom: -55px;
 	left: 50%;
 	transform: translate(-50%, 0);
-	/*animation-name: round1;
-    animation-duration: 10s;
+	animation-name: round1;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;*/
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
 }
-/*@keyframes round1 {
-    0%   {}
-    100% {}
-}*/
+@keyframes round1 {
+    0%   {width: 105%;}
+    100% {width: 75%;}
+}
+
+.round2{
+	z-index: 6;
+	bottom: -55px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	animation-name: round2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+@keyframes round2 {
+    0%   {width: 90%;}
+    100% {width: 50%;}
+}
 
