@@ -105,15 +105,15 @@ img{
 
 
 .round1{
-	width: 120%;
+	width: 50%;
 	z-index: 5;
 	bottom: -55px;
 	left: 50%;
 	transform: translate(-50%, 0);
-	animation-name: round1;
+	/*animation-name: round1;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear;*/
 
 }
 @keyframes round1 {
