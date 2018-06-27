@@ -9,10 +9,10 @@ body {
 
     }
 @media only screen and (max-width: 992px){
-    #skills, #experience    {overflow-x:hidden;}
+    body {overflow-x:hidden;}
 }
 @media (max-width: 479px){
-    body                    {overflow-x:hidden;}
+    body {overflow-x:hidden;}
 }
 
 img{
@@ -95,7 +95,7 @@ img{
 
 
 .road{
-	width: 30%;
+	width: 50%;
 	z-index: 6;
 	bottom: -15px;
 	left: 50%;
@@ -105,7 +105,7 @@ img{
 
 
 .round1{
-	width: 50%;
+	width: 30%;
 	z-index: 5;
 	bottom: -55px;
 	left: 50%;
@@ -114,10 +114,9 @@ img{
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;*/
-
 }
-@keyframes round1 {
+/*@keyframes round1 {
     0%   {}
     100% {}
-}
+}*/
 
