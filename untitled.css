@@ -1,14 +1,527 @@
-body {
+ body {
+     margin: 0px;
+     padding: 0px;
+     cursor: auto;
+     overflow-x: hidden;
+ }
 
-      margin: 0;
-     /* background-image: url(img/kv.png);
-      background-size: 100%;
-      background-repeat: none;*/
-
-    }
-
-.kv{
-  width: 100%;
-  margin: 0;
-  padding: 0;
+div img{
+	position: absolute;
+	height: 100%;
 }
+
+.btn_A1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 481px;
+	top: 520px;
+	width: 225px;
+	height: 480px;
+}
+.btn_A1-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 80px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_A2{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1198px;
+	top: 100px;
+	width: 305px;
+	height: 195px;
+}
+.btn_A2-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 134px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_A2a{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 878px;
+	top: 100px;
+	width: 135px;
+	height: 200px;
+}
+.btn_A2a-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 187px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_A2b{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1045px;
+	top: 100px;
+	width: 135px;
+	height: 200px;
+}
+.btn_A2b-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 241px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_A2c{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1200px;
+	top: 305px;
+	width: 190px;
+	height: 80px;
+}
+.btn_A2c-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 294px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_A2d{
+	z-index: 2;
+	position: absolute;
+	background-color: yellow;
+	left: 1200px;
+	top: 343px;
+	width: 80px;
+	height: 42px;
+}
+.btn_A2d-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 347px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 755px;
+	top: 870px;
+	width: 85px;
+	height: 118px;
+}
+.btn_B1-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 426px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B2{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 903px;
+	top: 870px;
+	width: 85px;
+	height: 118px;
+}
+.btn_B2-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 481px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B3{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1058px;
+	top: 860px;
+	width: 48px;
+	height: 120px;
+	transform:rotate(33deg);
+}
+.btn_B3-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 535px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B4{
+	z-index: 2;
+	position: absolute;
+	background-color: blue;
+	left: 1098px;
+	top: 885px;
+	width: 48px;
+	height: 120px;
+	transform:rotate(33deg);
+}
+.btn_B4-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 590px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B5{
+	z-index: 2;
+	position: absolute;
+	background-color: blue;
+	left: 1408px;
+	top: 750px;
+	width: 48px;
+	height: 120px;
+	transform:rotate(-63deg);
+}
+.btn_B5-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 644px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B6{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1428px;
+	top: 710px;
+	width: 48px;
+	height: 120px;
+	transform:rotate(-63deg);
+}
+.btn_B6-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 699px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B7{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1386px;
+	top: 581px;
+	width: 118px;
+	height: 86px;
+}
+.btn_B7-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 753px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B8{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1386px;
+	top: 500px;
+	width: 118px;
+	height: 43px;
+}
+.btn_B8-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 808px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_B9{
+	z-index: 2;
+	position: absolute;
+	background-color: blue;
+	left: 1386px;
+	top: 457px;
+	width: 118px;
+	height: 43px;
+}
+.btn_B9-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 862px;
+	width: 260px;
+	height: 40px;
+}
+
+.btn_C1{
+	z-index: 2;
+	position: absolute;
+	background-color: blue;
+	left: 1150px;
+	top: 556px;
+	width: 70px;
+	height: 157px;
+	transform:rotate(45deg);
+}
+.btn_C1-1{
+	z-index: 2;
+	position: absolute;
+	background-color: red;
+	left: 1585px;
+	top: 947px;
+	width: 260px;
+	height: 52px;
+}
+
+
+
+
+.btn_product{
+	z-index: 1;
+	position: absolute;
+	background-color: blue;
+	left: 471px;
+	top: 771px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile{
+	z-index: 1;
+	position: absolute;
+	background-color: blue;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_A1{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_A2{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_A2a{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_A2b{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_A2c{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_A2d{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B1{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B2{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B3{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B4{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B5{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B6{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B7{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B8{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_B9{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_profile_C1{
+	z-index: 1;
+	position: absolute;
+	background-color: green;
+	left: 471px;
+	top: 853px;
+	width: 250px;
+	height: 62px;
+}
+
+.btn_back{
+	z-index: 1;
+	position: absolute;
+	background-color: blue;
+	left: 471px;
+	top: 935px;
+	width: 250px;
+	height: 62px;
+}
+
+.map {
+     left: 0px;
+     transition: 1.5s;
+ }
+
+.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10,
+.p11,.p12,.p13,.p14,.p15,.p16,.p17,.p18,.p19,.p20,
+.p21,.p22,.p23,.p24,.p25,.p26,.p27,.p28,.p29,.p30,
+.p31,.p32,.p33{
+     left: 1920px;
+     transition: 1.5s;
+ }
+ 
