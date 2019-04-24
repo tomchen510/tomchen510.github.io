@@ -1,1045 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=7">
-	<meta:renderer></meta:renderer>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta:author></meta:author>
-	<meta name="keywords" content="Keyword 1,Keyword 2">
-	<meta name="description" content="description">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="apple-touch-icon" href="favicon.png">
-	<title>MWC19 Taiwan Pavilion</title>
-	<link rel="stylesheet" type="text/css" href="untitled.css">
-	<script src="js/jquery-1.8.2.min.js"></script>
-    <script src="js/jquery.preload.min.js"></script>
-    <script src="js/jpreloader.min.js"></script>
-    <script src="source/jquery.fancybox.js"></script>
-    <link rel="stylesheet" href="source/jquery.fancybox.css" />
-    <script src="js/script.js"></script>
-    <script type="text/javascript" src="js/popup.js"></script>
-    <script type="text/javascript">
-
-    function btn_A1() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p2').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A1').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_A2() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p4').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_A2a() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p6').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2a').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_A2b() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p8').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2b').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_A2c() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p10').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2c').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_A2d() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p12').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2d').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B1() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p14').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B1').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B2() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p16').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B2').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B3() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p18').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B3').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B4() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p20').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B4').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B5() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p22').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B5').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B6() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p24').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B6').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B7() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p26').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B7').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B8() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p28').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B8').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_B9() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p30').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B9').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_C1() {
-        document.getElementById('map').style.left = "-1920px"
-        document.getElementById('p32').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_C1').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-        document.getElementById('btn_A1').style.zIndex = "0"
-        document.getElementById('btn_A2').style.zIndex = "0"
-        document.getElementById('btn_A2a').style.zIndex = "0"
-        document.getElementById('btn_A2b').style.zIndex = "0"
-        document.getElementById('btn_A2c').style.zIndex = "0"
-        document.getElementById('btn_A2d').style.zIndex = "0"
-        document.getElementById('btn_B1').style.zIndex = "0"
-        document.getElementById('btn_B2').style.zIndex = "0"
-        document.getElementById('btn_B3').style.zIndex = "0"
-        document.getElementById('btn_B4').style.zIndex = "0"
-        document.getElementById('btn_B5').style.zIndex = "0"
-        document.getElementById('btn_B6').style.zIndex = "0"
-        document.getElementById('btn_B7').style.zIndex = "0"
-        document.getElementById('btn_B8').style.zIndex = "0"
-        document.getElementById('btn_B9').style.zIndex = "0"
-        document.getElementById('btn_C1').style.zIndex = "0"
-        document.getElementById('btn_A1-1').style.zIndex = "0"
-        document.getElementById('btn_A2-1').style.zIndex = "0"
-        document.getElementById('btn_A2a-1').style.zIndex = "0"
-        document.getElementById('btn_A2b-1').style.zIndex = "0"
-        document.getElementById('btn_A2c-1').style.zIndex = "0"
-        document.getElementById('btn_A2d-1').style.zIndex = "0"
-        document.getElementById('btn_B1-1').style.zIndex = "0"
-        document.getElementById('btn_B2-1').style.zIndex = "0"
-        document.getElementById('btn_B3-1').style.zIndex = "0"
-        document.getElementById('btn_B4-1').style.zIndex = "0"
-        document.getElementById('btn_B5-1').style.zIndex = "0"
-        document.getElementById('btn_B6-1').style.zIndex = "0"
-        document.getElementById('btn_B7-1').style.zIndex = "0"
-        document.getElementById('btn_B8-1').style.zIndex = "0"
-        document.getElementById('btn_B9-1').style.zIndex = "0"
-        document.getElementById('btn_C1-1').style.zIndex = "0"
-    };
-
-    function btn_product() {
-        document.getElementById('p3').style.left = "1920px"
-        document.getElementById('p5').style.left = "1920px"
-        document.getElementById('p7').style.left = "1920px"
-        document.getElementById('p9').style.left = "1920px"
-        document.getElementById('p11').style.left = "1920px"
-        document.getElementById('p13').style.left = "1920px"
-        document.getElementById('p15').style.left = "1920px"
-        document.getElementById('p17').style.left = "1920px"
-        document.getElementById('p19').style.left = "1920px"
-        document.getElementById('p21').style.left = "1920px"
-        document.getElementById('p23').style.left = "1920px"
-        document.getElementById('p25').style.left = "1920px"
-        document.getElementById('p27').style.left = "1920px"
-        document.getElementById('p29').style.left = "1920px"
-        document.getElementById('p31').style.left = "1920px"
-        document.getElementById('p33').style.left = "1920px"
-    };
-
-	function btn_profile() {
-        document.getElementById('p3').style.left = "0px"
-        document.getElementById('p5').style.left = "0px"
-        document.getElementById('p7').style.left = "0px"
-        document.getElementById('p9').style.left = "0px"
-        document.getElementById('p11').style.left = "0px"
-        document.getElementById('p13').style.left = "0px"
-        document.getElementById('p15').style.left = "0px"
-        document.getElementById('p17').style.left = "0px"
-        document.getElementById('p19').style.left = "0px"
-        document.getElementById('p21').style.left = "0px"
-        document.getElementById('p23').style.left = "0px"
-        document.getElementById('p25').style.left = "0px"
-        document.getElementById('p27').style.left = "0px"
-        document.getElementById('p29').style.left = "0px"
-        document.getElementById('p31').style.left = "0px"
-        document.getElementById('p33').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_A1() {
-        document.getElementById('p3').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A1').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_A2() {
-        document.getElementById('p5').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_A2a() {
-        document.getElementById('p7').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2a').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_A2b() {
-        document.getElementById('p9').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2b').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_A2c() {
-        document.getElementById('p11').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2c').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_A2d() {
-        document.getElementById('p13').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_A2d').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B1() {
-        document.getElementById('p15').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B1').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B2() {
-        document.getElementById('p17').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B2').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B3() {
-        document.getElementById('p19').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B3').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B4() {
-        document.getElementById('p21').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B4').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B5() {
-        document.getElementById('p23').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B5').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B6() {
-        document.getElementById('p25').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B6').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B7() {
-        document.getElementById('p27').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B7').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B8() {
-        document.getElementById('p29').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B8').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_B9() {
-        document.getElementById('p31').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_B9').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_profile_C1() {
-        document.getElementById('p33').style.left = "0px"
-        document.getElementById('btn_product').style.zIndex = "2"
-        document.getElementById('btn_profile_C1').style.zIndex = "2"
-        document.getElementById('btn_back').style.zIndex = "2"
-    };
-
-    function btn_back() {
-        document.getElementById('map').style.left = "0px"
-        document.getElementById('p2').style.left = "1920px"
-        document.getElementById('p3').style.left = "1920px"
-        document.getElementById('p4').style.left = "1920px"
-        document.getElementById('p5').style.left = "1920px"
-        document.getElementById('p6').style.left = "1920px"
-        document.getElementById('p7').style.left = "1920px"
-        document.getElementById('p8').style.left = "1920px"
-        document.getElementById('p9').style.left = "1920px"
-        document.getElementById('p10').style.left = "1920px"
-        document.getElementById('p11').style.left = "1920px"
-        document.getElementById('p12').style.left = "1920px"
-        document.getElementById('p13').style.left = "1920px"
-        document.getElementById('p14').style.left = "1920px"
-        document.getElementById('p15').style.left = "1920px"
-        document.getElementById('p16').style.left = "1920px"
-        document.getElementById('p17').style.left = "1920px"
-        document.getElementById('p18').style.left = "1920px"
-        document.getElementById('p19').style.left = "1920px"
-        document.getElementById('p20').style.left = "1920px"
-        document.getElementById('p21').style.left = "1920px"
-        document.getElementById('p22').style.left = "1920px"
-        document.getElementById('p23').style.left = "1920px"
-        document.getElementById('p24').style.left = "1920px"
-        document.getElementById('p25').style.left = "1920px"
-        document.getElementById('p26').style.left = "1920px"
-        document.getElementById('p27').style.left = "1920px"
-        document.getElementById('p28').style.left = "1920px"
-        document.getElementById('p29').style.left = "1920px"
-        document.getElementById('p30').style.left = "1920px"
-        document.getElementById('p31').style.left = "1920px"
-        document.getElementById('p32').style.left = "1920px"
-        document.getElementById('p33').style.left = "1920px"
-       
-        
-        document.getElementById('btn_A1').style.zIndex = "2"
-        document.getElementById('btn_A2').style.zIndex = "2"
-        document.getElementById('btn_A2a').style.zIndex = "2"
-        document.getElementById('btn_A2b').style.zIndex = "2"
-        document.getElementById('btn_A2c').style.zIndex = "2"
-        document.getElementById('btn_A2d').style.zIndex = "2"
-        document.getElementById('btn_B1').style.zIndex = "2"
-        document.getElementById('btn_B2').style.zIndex = "2"
-        document.getElementById('btn_B3').style.zIndex = "2"
-        document.getElementById('btn_B4').style.zIndex = "2"
-        document.getElementById('btn_B5').style.zIndex = "2"
-        document.getElementById('btn_B6').style.zIndex = "2"
-        document.getElementById('btn_B7').style.zIndex = "2"
-        document.getElementById('btn_B8').style.zIndex = "2"
-        document.getElementById('btn_B9').style.zIndex = "2"
-        document.getElementById('btn_C1').style.zIndex = "2"
-        document.getElementById('btn_A1-1').style.zIndex = "2"
-        document.getElementById('btn_A2-1').style.zIndex = "2"
-        document.getElementById('btn_A2a-1').style.zIndex = "2"
-        document.getElementById('btn_A2b-1').style.zIndex = "2"
-        document.getElementById('btn_A2c-1').style.zIndex = "2"
-        document.getElementById('btn_A2d-1').style.zIndex = "2"
-        document.getElementById('btn_B1-1').style.zIndex = "2"
-        document.getElementById('btn_B2-1').style.zIndex = "2"
-        document.getElementById('btn_B3-1').style.zIndex = "2"
-        document.getElementById('btn_B4-1').style.zIndex = "2"
-        document.getElementById('btn_B5-1').style.zIndex = "2"
-        document.getElementById('btn_B6-1').style.zIndex = "2"
-        document.getElementById('btn_B7-1').style.zIndex = "2"
-        document.getElementById('btn_B8-1').style.zIndex = "2"
-        document.getElementById('btn_B9-1').style.zIndex = "2"
-        document.getElementById('btn_C1-1').style.zIndex = "2"
-
-
-        document.getElementById('btn_product').style.zIndex = "1"
-        document.getElementById('btn_profile').style.zIndex = "1"
-        document.getElementById('btn_profile_A1').style.zIndex = "1"
-        document.getElementById('btn_profile_A2').style.zIndex = "1"
-        document.getElementById('btn_profile_A2a').style.zIndex = "1"
-        document.getElementById('btn_profile_A2b').style.zIndex = "1"
-        document.getElementById('btn_profile_A2c').style.zIndex = "1"
-        document.getElementById('btn_profile_A2d').style.zIndex = "1"
-        document.getElementById('btn_profile_B1').style.zIndex = "1"
-        document.getElementById('btn_profile_B2').style.zIndex = "1"
-        document.getElementById('btn_profile_B3').style.zIndex = "1"
-        document.getElementById('btn_profile_B4').style.zIndex = "1"
-        document.getElementById('btn_profile_B5').style.zIndex = "1"
-        document.getElementById('btn_profile_B6').style.zIndex = "1"
-        document.getElementById('btn_profile_B7').style.zIndex = "1"
-        document.getElementById('btn_profile_B8').style.zIndex = "1"
-        document.getElementById('btn_profile_B9').style.zIndex = "1"
-        document.getElementById('btn_profile_C1').style.zIndex = "1"
-        document.getElementById('btn_back').style.zIndex = "1"
-    };
-
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/test1.css">
+    <link rel="stylesheet" href="./style/grid.css">
+    <script src="app/jquery.min.js"></script>
+    <script src="app/jquery.touchSwipe.min.js"></script>
+    <script src="app/app.js"></script>
 </head>
+
 <body>
-<div>
-	<img src="img/Web 1920 – 0.png">
+    <div class="container">
+        <div id="content">
+            <div id="imgs">
+                <img src="./JPG/page-0.jpg" />
+                <img src="./JPG/page-2.jpg" />
+                <img src="./JPG/page-3.jpg" />
+                <img src="./JPG/page-4.jpg" />
+                <img src="./JPG/page-5.jpg" />
+                <img src="./JPG/page-6.jpg" />
+                <img src="./JPG/page-7.jpg" />
+                <img src="./JPG/page-8.jpg" />
+                <img src="./JPG/page-9.jpg" />
+                <img src="./JPG/page-11.jpg" />
+                <img src="./JPG/page-12.jpg" />
+                <img src="./JPG/page-13.jpg" />
+                <img src="./JPG/page-14.jpg" />
+                <img src="./JPG/page-15.jpg" />
+                <img src="./JPG/page-16.jpg" />
+                <img src="./JPG/page-17.jpg" />
+                <img src="./JPG/page-18.jpg" />
+                <img src="./JPG/page-19.jpg" />
+                <img src="./JPG/page-20.jpg" />
+            </div>
+        </div>
+        <!-- <div class="box1"></div> -->
+        <div class="box2">
+            <div class="MOA">
+                <button class="rotate_text" id="btn1">MOA</button>
+            </div>
+            <div class="study_design">
+                <button class="rotate_text" id="btn2">STUDY DESIGN</button>
+            </div>
+            <div class="efficacy">
+                <button class="rotate_text" id="btn3">EFFICACY</button>
+            </div>
+            <div class="safety">
+                <button class="rotate_text" id="btn4">SAFETY</button>
+            </div>
+            <div class="dosing">
+                <button class="rotate_text" id="btn5">DOSING</button>
+            </div>
+            <div class="information">
+                <button class="rotate_text" id="btn6">SELECT SAFETY INFORMATION</button>
+            </div>
+        </div>
+    </div>
 
-	<div class="btn_A1" id="btn_A1" onclick="btn_A1();"></div>
-	<div class="btn_A1-1" id="btn_A1-1" onclick="btn_A1();"></div>
-
-	<div class="btn_A2" id="btn_A2" onclick="btn_A2();"></div>
-	<div class="btn_A2-1" id="btn_A2-1" onclick="btn_A2();"></div>
-
-	<div class="btn_A2a" id="btn_A2a" onclick="btn_A2a();"></div>
-	<div class="btn_A2a-1" id="btn_A2a-1" onclick="btn_A2a();"></div>
-
-	<div class="btn_A2b" id="btn_A2b" onclick="btn_A2b();"></div>
-	<div class="btn_A2b-1" id="btn_A2b-1" onclick="btn_A2b();"></div>
-
-	<div class="btn_A2c" id="btn_A2c" onclick="btn_A2c();"></div>
-	<div class="btn_A2c-1" id="btn_A2c-1" onclick="btn_A2c();"></div>
-
-	<div class="btn_A2d" id="btn_A2d" onclick="btn_A2d();"></div>
-	<div class="btn_A2d-1" id="btn_A2d-1" onclick="btn_A2d();"></div>
-
-	<div class="btn_B1" id="btn_B1" onclick="btn_B1();"></div>
-	<div class="btn_B1-1" id="btn_B1-1" onclick="btn_B1();"></div>
-
-	<div class="btn_B2" id="btn_B2" onclick="btn_B2();"></div>
-	<div class="btn_B2-1" id="btn_B2-1" onclick="btn_B2();"></div>
-
-	<div class="btn_B3" id="btn_B3" onclick="btn_B3();"></div>
-	<div class="btn_B3-1" id="btn_B3-1" onclick="btn_B3();"></div>
-
-	<div class="btn_B4" id="btn_B4" onclick="btn_B4();"></div>
-	<div class="btn_B4-1" id="btn_B4-1" onclick="btn_B4();"></div>
-
-	<div class="btn_B5" id="btn_B5" onclick="btn_B5();"></div>
-	<div class="btn_B5-1" id="btn_B5-1" onclick="btn_B5();"></div>
-
-	<div class="btn_B6" id="btn_B6" onclick="btn_B6();"></div>
-	<div class="btn_B6-1" id="btn_B6-1" onclick="btn_B6();"></div>
-
-	<div class="btn_B7" id="btn_B7" onclick="btn_B7();"></div>
-	<div class="btn_B7-1" id="btn_B7-1" onclick="btn_B7();"></div>
-
-	<div class="btn_B8" id="btn_B8" onclick="btn_B8();"></div>
-	<div class="btn_B8-1" id="btn_B8-1" onclick="btn_B8();"></div>
-
-	<div class="btn_B9" id="btn_B9" onclick="btn_B9();"></div>
-	<div class="btn_B9-1" id="btn_B9-1" onclick="btn_B9();"></div>
-
-	<div class="btn_C1" id="btn_C1" onclick="btn_C1();"></div>
-	<div class="btn_C1-1" id="btn_C1-1" onclick="btn_C1();"></div>
-
-
-	<div class="btn_product" id="btn_product" onclick="btn_product();"></div>
-
-	<div class="btn_profile" id="btn_profile" onclick="btn_profile();"></div>
-	<div class="btn_profile_A1" id="btn_profile_A1" onclick="btn_profile_A1();"></div>
-	<div class="btn_profile_A2" id="btn_profile_A2" onclick="btn_profile_A2();"></div>
-	<div class="btn_profile_A2a" id="btn_profile_A2a" onclick="btn_profile_A2a();"></div>
-	<div class="btn_profile_A2b" id="btn_profile_A2b" onclick="btn_profile_A2b();"></div>
-	<div class="btn_profile_A2c" id="btn_profile_A2c" onclick="btn_profile_A2c();"></div>
-	<div class="btn_profile_A2d" id="btn_profile_A2d" onclick="btn_profile_A2d();"></div>
-	<div class="btn_profile_B1" id="btn_profile_B1" onclick="btn_profile_B1();"></div>
-	<div class="btn_profile_B2" id="btn_profile_B2" onclick="btn_profile_B2();"></div>
-	<div class="btn_profile_B3" id="btn_profile_B3" onclick="btn_profile_B3();"></div>
-	<div class="btn_profile_B4" id="btn_profile_B4" onclick="btn_profile_B4();"></div>
-	<div class="btn_profile_B5" id="btn_profile_B5" onclick="btn_profile_B5();"></div>
-	<div class="btn_profile_B6" id="btn_profile_B6" onclick="btn_profile_B6();"></div>
-	<div class="btn_profile_B7" id="btn_profile_B7" onclick="btn_profile_B7();"></div>
-	<div class="btn_profile_B8" id="btn_profile_B8" onclick="btn_profile_B8();"></div>
-	<div class="btn_profile_B9" id="btn_profile_B9" onclick="btn_profile_B9();"></div>
-	<div class="btn_profile_C1" id="btn_profile_C1" onclick="btn_profile_C1();"></div>
-
-	<div class="btn_back" id="btn_back" onclick="btn_back();"></div>
+    <!-- <div class="container">
+        <img src="./JPG/page-0.jpg" alt="">
+        <div class="box1"></div>
+        <div class="box2">
+            <div class="MOA">
+                <button class="rotate_text">MOA</button>
+            </div>
+            <div class="study_design">
+                <button class="rotate_text">STUDY DESIGN</button>
+            </div>
+            <div class="efficacy">
+                <button class="rotate_text">EFFICACY</button>
+            </div>
+            <div class="safety">
+                <button class="rotate_text">SAFETY</button>
+            </div>
+            <div class="dosing">
+                <button class="rotate_text">DOSING</button>
+            </div>
+            <div class="information">
+                <button class="rotate_text">SELECT SAFETY INFORMATION</button>
+            </div>
+        </div>
+    </div> -->
 
 
-	<img src="img/Web 1920 – 1.png" id="map" class="map">
+    <script>
+        console.log("page:" + currentImg);
+        // var my_id = "MOA";
+        // var text = "MOA"
+        // var my_select = document.querySelector("." + my_id);
+        // my_select.innerHTML = `<div class="box2 rotate_text" id="active_box"><div>${text}</div><div><span></span><span></span><span></span></div>
+        //     `;
+        var btn1 = document.querySelector("#btn1");
+        btn1.addEventListener("click", function (e) {
+            currentImg = Math.max(0, 0);
+            btn1.className = "btn_active";
+            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
+        });
+        var btn2 = document.querySelector("#btn2");
+        btn2.addEventListener("click", function (e) {
+            currentImg = Math.max(3, 0);
+            btn2.className = "btn_active";
+            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
+        });
+        var btn3 = document.querySelector("#btn3");
+        btn3.addEventListener("click", function (e) {
+            currentImg = Math.max(5, 0);
+            btn3.className = "btn_active";
+            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
+        });
 
-	<img src="img/Web 1920 – 2.png" id="p2" class="p2">
-	<img src="img/Web 1920 – 3.png" id="p3" class="p3">
+        var btn4 = document.querySelector("#btn4");
+        btn4.addEventListener("click", function (e) {
+            currentImg = Math.max(10, 0);
+            btn4.className = "btn_active";
+            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
+        });
 
-	<img src="img/Web 1920 – 4.png" id="p4" class="p4">
-	<img src="img/Web 1920 – 5.png" id="p5" class="p5">
+        var btn5 = document.querySelector("#btn5");
+        btn5.addEventListener("click", function (e) {
+            currentImg = Math.max(14, 0);
+            btn5.className = "btn_active";
+            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
+        });
 
-	<img src="img/Web 1920 – 6.png" id="p6" class="p6">
-	<img src="img/Web 1920 – 7.png" id="p7" class="p7">
-
-	<img src="img/Web 1920 – 8.png" id="p8" class="p8">
-	<img src="img/Web 1920 – 9.png" id="p9" class="p9">
-
-	<img src="img/Web 1920 – 10.png" id="p10" class="p10">
-	<img src="img/Web 1920 – 11.png" id="p11" class="p11">
-
-	<img src="img/Web 1920 – 12.png" id="p12" class="p12">
-	<img src="img/Web 1920 – 13.png" id="p13" class="p13">
-
-	<img src="img/Web 1920 – 12.png" id="p12" class="p12">
-	<img src="img/Web 1920 – 13.png" id="p13" class="p13">
-
-	<img src="img/Web 1920 – 14.png" id="p14" class="p14">
-	<img src="img/Web 1920 – 15.png" id="p15" class="p15">
-
-	<img src="img/Web 1920 – 16.png" id="p16" class="p16">
-	<img src="img/Web 1920 – 17.png" id="p17" class="p17">
-
-	<img src="img/Web 1920 – 18.png" id="p18" class="p18">
-	<img src="img/Web 1920 – 19.png" id="p19" class="p19">
-
-	<img src="img/Web 1920 – 20.png" id="p20" class="p20">
-	<img src="img/Web 1920 – 21.png" id="p21" class="p21">
-
-	<img src="img/Web 1920 – 22.png" id="p22" class="p22">
-	<img src="img/Web 1920 – 23.png" id="p23" class="p23">
-
-	<img src="img/Web 1920 – 24.png" id="p24" class="p24">
-	<img src="img/Web 1920 – 25.png" id="p25" class="p25">
-
-	<img src="img/Web 1920 – 26.png" id="p26" class="p26">
-	<img src="img/Web 1920 – 27.png" id="p27" class="p27">
-
-	<img src="img/Web 1920 – 28.png" id="p28" class="p28">
-	<img src="img/Web 1920 – 29.png" id="p29" class="p29">
-
-	<img src="img/Web 1920 – 30.png" id="p30" class="p30">
-	<img src="img/Web 1920 – 31.png" id="p31" class="p31">
-
-	<img src="img/Web 1920 – 32.png" id="p32" class="p32">
-	<img src="img/Web 1920 – 33.png" id="p33" class="p33">
-
-	<img src="img/Web 1920 – 00.png">
-</div>
-
-
-	
+        var btn6 = document.querySelector("#btn6");
+        btn6.addEventListener("click", function (e) {
+            currentImg = Math.max(16, 0);
+            btn6.className = "btn_active";
+            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
+        });
+    </script>
 </body>
+
 </html>
