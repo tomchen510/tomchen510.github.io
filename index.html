@@ -1,139 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/test1.css">
-    <link rel="stylesheet" href="./style/grid.css">
-    <script src="app/jquery.min.js"></script>
-    <script src="app/jquery.touchSwipe.min.js"></script>
-    <script src="app/app.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<meta:renderer></meta:renderer>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta:author></meta:author>
+	<meta name="keywords" content="Keyword 1,Keyword 2">
+	<meta name="description" content="description">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="favicon.png">
+	<title>TDCC-30Album</title>
+	<link href="style.css" rel="stylesheet" media="screen">
 </head>
-
 <body>
-    <div class="container">
-        <div id="content">
-            <div id="imgs">
-                <img src="./JPG/page-0.jpg" />
-                <img src="./JPG/page-2.jpg" />
-                <img src="./JPG/page-3.jpg" />
-                <img src="./JPG/page-4.jpg" />
-                <img src="./JPG/page-5.jpg" />
-                <img src="./JPG/page-6.jpg" />
-                <img src="./JPG/page-7.jpg" />
-                <img src="./JPG/page-8.jpg" />
-                <img src="./JPG/page-9.jpg" />
-                <img src="./JPG/page-11.jpg" />
-                <img src="./JPG/page-12.jpg" />
-                <img src="./JPG/page-13.jpg" />
-                <img src="./JPG/page-14.jpg" />
-                <img src="./JPG/page-15.jpg" />
-                <img src="./JPG/page-16.jpg" />
-                <img src="./JPG/page-17.jpg" />
-                <img src="./JPG/page-18.jpg" />
-                <img src="./JPG/page-19.jpg" />
-                <img src="./JPG/page-20.jpg" />
-            </div>
-        </div>
-        <!-- <div class="box1"></div> -->
-        <div class="box2">
-            <div class="MOA">
-                <button class="rotate_text" id="btn1">MOA</button>
-            </div>
-            <div class="study_design">
-                <button class="rotate_text" id="btn2">STUDY DESIGN</button>
-            </div>
-            <div class="efficacy">
-                <button class="rotate_text" id="btn3">EFFICACY</button>
-            </div>
-            <div class="safety">
-                <button class="rotate_text" id="btn4">SAFETY</button>
-            </div>
-            <div class="dosing">
-                <button class="rotate_text" id="btn5">DOSING</button>
-            </div>
-            <div class="information">
-                <button class="rotate_text" id="btn6">SELECT SAFETY INFORMATION</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div class="container">
-        <img src="./JPG/page-0.jpg" alt="">
-        <div class="box1"></div>
-        <div class="box2">
-            <div class="MOA">
-                <button class="rotate_text">MOA</button>
-            </div>
-            <div class="study_design">
-                <button class="rotate_text">STUDY DESIGN</button>
-            </div>
-            <div class="efficacy">
-                <button class="rotate_text">EFFICACY</button>
-            </div>
-            <div class="safety">
-                <button class="rotate_text">SAFETY</button>
-            </div>
-            <div class="dosing">
-                <button class="rotate_text">DOSING</button>
-            </div>
-            <div class="information">
-                <button class="rotate_text">SELECT SAFETY INFORMATION</button>
-            </div>
-        </div>
-    </div> -->
+		<div class="kv">
+			<img src="img/kv.jpg">
+		</div>
+         <div>
+             <img src="img/logo.png" class="logo">
+         </div>
+         <div>
+             <img src="img/title.png" class="title">
+         </div>
+         <div>
+	         <a href="https://www.yogile.com/lmaz2wqfcyu" target="_blank">
+	             <img src="img/link-a.png" class="link-a">
+	         </a>
+         </div>
+         <div>
+         	<a href="https://www.yogile.com/6b8gohn7var" target="_blank">
+	             <img src="img/link-b.png" class="link-b">
+	         </a>
+         </div>
+        
+         
 
 
-    <script>
-        console.log("page:" + currentImg);
-        // var my_id = "MOA";
-        // var text = "MOA"
-        // var my_select = document.querySelector("." + my_id);
-        // my_select.innerHTML = `<div class="box2 rotate_text" id="active_box"><div>${text}</div><div><span></span><span></span><span></span></div>
-        //     `;
-        var btn1 = document.querySelector("#btn1");
-        btn1.addEventListener("click", function (e) {
-            currentImg = Math.max(0, 0);
-            btn1.className = "btn_active";
-            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
-        });
-        var btn2 = document.querySelector("#btn2");
-        btn2.addEventListener("click", function (e) {
-            currentImg = Math.max(3, 0);
-            btn2.className = "btn_active";
-            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
-        });
-        var btn3 = document.querySelector("#btn3");
-        btn3.addEventListener("click", function (e) {
-            currentImg = Math.max(5, 0);
-            btn3.className = "btn_active";
-            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
-        });
-
-        var btn4 = document.querySelector("#btn4");
-        btn4.addEventListener("click", function (e) {
-            currentImg = Math.max(10, 0);
-            btn4.className = "btn_active";
-            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
-        });
-
-        var btn5 = document.querySelector("#btn5");
-        btn5.addEventListener("click", function (e) {
-            currentImg = Math.max(14, 0);
-            btn5.className = "btn_active";
-            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
-        });
-
-        var btn6 = document.querySelector("#btn6");
-        btn6.addEventListener("click", function (e) {
-            currentImg = Math.max(16, 0);
-            btn6.className = "btn_active";
-            scrollImages(IMG_HEIGHT * currentImg, speed * 3);
-        });
-    </script>
 </body>
-
 </html>
